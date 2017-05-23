@@ -1,0 +1,1 @@
+q = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Contract__c.Proposal_Awarded_Date__c_Year', 'Contract__c.Proposal_Awarded_Date__c_Month', 'Contract__c.Proposal_Awarded_Date__c_Day')\")}};
