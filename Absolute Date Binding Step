@@ -1,0 +1,120 @@
+"step_relative_date": {
+                "datasets": [],
+                "dimensions": [],
+                "groups": [],
+                "isFacet": false,
+                "isGlobal": false,
+                "numbers": [],
+                "selectMode": "singlerequired",
+                "start": {
+                    "display": [
+                        "2017 (Default)"
+                    ]
+                },
+                "strings": [],
+                "type": "staticflex",
+                "useGlobal": false,
+                "values": [
+                    {
+                        "display": "2017 (Default)",
+                        "compact_step_value": [
+                            [
+                                "year",
+                                0
+                            ],
+                            [
+                                "year",
+                                0
+                            ]
+                        ],
+                        "saql_step_value": [
+                            "current year",
+                            "current day"
+                        ]
+                    },
+                    {
+                        "display": " 2017 Q1",
+                        "compact_step_value": [
+                            1483228800000,
+                            1490918400000
+                        ],
+                        "saql_step_value": "[[2017,1,1], [2017,3,31]]"
+                    },
+                    {
+                        "display": " 2017 Q2",
+                        "compact_step_value": [
+                            1491004800000,
+                            1498780800000
+                        ],
+                        "saql_step_value": "[[2017,4,1], [2017,6,30]]"
+                    },
+                    {
+                        "display": " 2017 Q3",
+                        "compact_step_value": [
+                            1498867200000,
+                            1506729600000
+                        ],
+                        "saql_step_value": "[[2017,7,1], [2017,9,30]]"
+                    },
+                    {
+                        "display": " 2017 Q4",
+                        "compact_step_value": [
+                            1506816000000,
+                            1514678400000
+                        ],
+                        "saql_step_value": "[[2017,10,1], [2017,12,31]]"
+                    },
+                    {
+                        "display": "2016",
+                        "compact_step_value": [
+                            [
+                                "year",
+                                -1
+                            ],
+                            [
+                                "year",
+                                -1
+                            ]
+                        ],
+                        "saql_step_value": [
+                            "1 year ago",
+                            "1 year ago"
+                        ]
+                    },
+                    {
+                        "display": " 2016 Q1",
+                        "compact_step_value": [
+                            1451606400000,
+                            1459382400000
+                        ],
+                        "saql_step_value": " [[2016,1,1], [2016,3,31]]"
+                    },
+                    {
+                        "display": " 2016 Q2",
+                        "compact_step_value": [
+                            1459468800000,
+                            1467244800000
+                        ],
+                        "saql_step_value": " [[2016,4,1], [2016,6,30]] "
+                    },
+                    {
+                        "display": " 2016 Q3",
+                        "compact_step_value": [
+                            1467331200000,
+                            1475193600000
+                        ],
+                        "saql_step_value": " [[2016,7,1], [2016,9,30]] "
+                    },
+                    {
+                        "display": " 2016 Q4",
+                        "compact_step_value": [
+                            1475280000000,
+                            1483142400000
+                        ],
+                        "saql_step_value": " [[2016,10,1], [2016,12,31]] "
+                    }
+                ],
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            }
