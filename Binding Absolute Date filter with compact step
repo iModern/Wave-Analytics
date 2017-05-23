@@ -1,0 +1,6 @@
+["CO_Service_Line__c.Change_Order__c.CO_Execution_Date__c",
+                            [
+                                "{{cell(step_relative_date.selection, 0, \"compact_step_value\").asObject()}}"
+                            ],
+                            ">=<="
+],
