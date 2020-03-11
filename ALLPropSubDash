@@ -1,0 +1,2509 @@
+{
+    "label": "Global Proposal Submitted",
+    "mobileDisabled": false,
+    "description": "Version 1",
+    "state": {
+        "dataSourceLinks": [],
+        "filters": [],
+        "gridLayouts": [
+            {
+                "maxWidth": 1800,
+                "name": "Default",
+                "numColumns": 44,
+                "pages": [
+                    {
+                        "label": "RFP",
+                        "name": "83c6c156-12fc-428c-8d5e-09dc152f2132",
+                        "navigationHidden": false,
+                        "widgets": [
+                            {
+                                "colspan": 44,
+                                "column": 0,
+                                "name": "text_8",
+                                "row": 4,
+                                "rowspan": 3,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(230, 242, 243)",
+                                    "borderColor": "rgb(0, 71, 80)",
+                                    "borderEdges": [
+                                        "left",
+                                        "right"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 44,
+                                "column": 0,
+                                "name": "navigation_3",
+                                "row": 1,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderEdges": [],
+                                    "borderWidth": 8
+                                }
+                            },
+                            {
+                                "colspan": 44,
+                                "column": 0,
+                                "name": "pillbox_1",
+                                "row": 7,
+                                "rowspan": 3,
+                                "widgetStyle": {}
+                            },
+                            {
+                                "colspan": 22,
+                                "column": 0,
+                                "name": "table_3",
+                                "row": 12,
+                                "rowspan": 43,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(0, 71, 80)",
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 21,
+                                "column": 23,
+                                "name": "table_2",
+                                "row": 12,
+                                "rowspan": 24,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(0, 71, 80)",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 21,
+                                "column": 23,
+                                "name": "table_4",
+                                "row": 38,
+                                "rowspan": 24,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(0, 71, 80)",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 21,
+                                "column": 23,
+                                "name": "table_5",
+                                "row": 65,
+                                "rowspan": 19,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(0, 71, 80)",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 22,
+                                "column": 0,
+                                "name": "table_6",
+                                "row": 60,
+                                "rowspan": 31,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(0, 71, 80)",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 21,
+                                "column": 23,
+                                "name": "table_7",
+                                "row": 87,
+                                "rowspan": 85,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(0, 71, 80)",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 22,
+                                "column": 0,
+                                "name": "text_2",
+                                "row": 55,
+                                "rowspan": 2,
+                                "widgetStyle": {}
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Ballpark",
+                        "name": "8118ac5a-8eda-42a4-a1a1-4041f8f7a1f2",
+                        "navigationHidden": false,
+                        "widgets": [
+                            {
+                                "colspan": 44,
+                                "column": 0,
+                                "name": "text_1",
+                                "row": 4,
+                                "rowspan": 3,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(230, 242, 243)",
+                                    "borderColor": "rgb(0, 71, 80)",
+                                    "borderEdges": [
+                                        "left",
+                                        "right"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 44,
+                                "column": 0,
+                                "name": "navigation_4",
+                                "row": 1,
+                                "rowspan": 2,
+                                "widgetStyle": {}
+                            },
+                            {
+                                "colspan": 44,
+                                "column": 0,
+                                "name": "pillbox_2",
+                                "row": 7,
+                                "rowspan": 3,
+                                "widgetStyle": {}
+                            },
+                            {
+                                "colspan": 22,
+                                "column": 0,
+                                "name": "table_8",
+                                "row": 12,
+                                "rowspan": 26,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(0, 71, 80)",
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 21,
+                                "column": 23,
+                                "name": "table_9",
+                                "row": 12,
+                                "rowspan": 15,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(0, 71, 80)",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 21,
+                                "column": 23,
+                                "name": "table_10",
+                                "row": 27,
+                                "rowspan": 22,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(0, 71, 80)",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 21,
+                                "column": 23,
+                                "name": "table_11",
+                                "row": 49,
+                                "rowspan": 12,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(0, 71, 80)",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 22,
+                                "column": 0,
+                                "name": "table_12",
+                                "row": 42,
+                                "rowspan": 20,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(0, 71, 80)",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 21,
+                                "column": 23,
+                                "name": "table_13",
+                                "row": 62,
+                                "rowspan": 85,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(0, 71, 80)",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Details",
+                        "name": "73d91d1b-1590-4e2b-8cb1-90d832fac18c",
+                        "navigationHidden": false,
+                        "widgets": [
+                            {
+                                "colspan": 44,
+                                "column": 0,
+                                "name": "text_20",
+                                "row": 4,
+                                "rowspan": 3,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(230, 242, 243)",
+                                    "borderColor": "rgb(0, 71, 80)",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 44,
+                                "column": 0,
+                                "name": "navigation_1",
+                                "row": 1,
+                                "rowspan": 2,
+                                "widgetStyle": {}
+                            },
+                            {
+                                "colspan": 44,
+                                "column": 0,
+                                "name": "pillbox_3",
+                                "row": 7,
+                                "rowspan": 3,
+                                "widgetStyle": {}
+                            },
+                            {
+                                "colspan": 44,
+                                "column": 0,
+                                "name": "table_1",
+                                "row": 15,
+                                "rowspan": 26,
+                                "widgetStyle": {}
+                            },
+                            {
+                                "colspan": 44,
+                                "column": 0,
+                                "name": "table_16",
+                                "row": 46,
+                                "rowspan": 26,
+                                "widgetStyle": {}
+                            },
+                            {
+                                "colspan": 44,
+                                "column": 0,
+                                "name": "text_5",
+                                "row": 43,
+                                "rowspan": 3,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#00B531",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 44,
+                                "column": 0,
+                                "name": "text_6",
+                                "row": 12,
+                                "rowspan": 3,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#00B531",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 44,
+                                "column": 0,
+                                "name": "container_1",
+                                "row": 72,
+                                "rowspan": 11,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(0, 71, 80)",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Leaderboard",
+                        "name": "ca80bc38-5977-4c9f-9c41-bcde7bee297e",
+                        "navigationHidden": false,
+                        "widgets": [
+                            {
+                                "colspan": 39,
+                                "column": 2,
+                                "name": "table_14",
+                                "row": 33,
+                                "rowspan": 110,
+                                "widgetStyle": {}
+                            },
+                            {
+                                "colspan": 39,
+                                "column": 2,
+                                "name": "text_3",
+                                "row": 10,
+                                "rowspan": 3,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(230, 242, 243)",
+                                    "borderColor": "rgb(0, 71, 80)",
+                                    "borderEdges": [
+                                        "left",
+                                        "right"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 44,
+                                "column": 0,
+                                "name": "pillbox_4",
+                                "row": 4,
+                                "rowspan": 3,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 44,
+                                "column": 0,
+                                "name": "navigation_2",
+                                "row": 1,
+                                "rowspan": 2,
+                                "widgetStyle": {}
+                            },
+                            {
+                                "colspan": 39,
+                                "column": 2,
+                                "name": "text_4",
+                                "row": 30,
+                                "rowspan": 3,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(230, 242, 243)",
+                                    "borderColor": "rgb(0, 71, 80)",
+                                    "borderEdges": [
+                                        "left",
+                                        "right"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 39,
+                                "column": 2,
+                                "name": "table_15",
+                                "row": 13,
+                                "rowspan": 15,
+                                "widgetStyle": {}
+                            }
+                        ]
+                    }
+                ],
+                "rowHeight": "fine",
+                "selectors": [],
+                "style": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "backgroundColor": "rgb(0, 71, 80)",
+                    "cellSpacingX": 0,
+                    "cellSpacingY": 0,
+                    "fit": "original",
+                    "gutterColor": "rgb(0, 71, 80)"
+                },
+                "version": 1
+            }
+        ],
+        "layouts": [],
+        "steps": {
+            "RFP_TherapeuticArea_AllICON": {
+                "broadcastFacet": true,
+                "groups": [],
+                "label": "RFP_TherapeuticArea_AllICON",
+                "numbers": [],
+                "query": "q = load \"Opportunity_with_Service_Area_New_Service_Area_Group\"; q = filter q by 'Opportunity_ID__c.Ballpark_Costing_Excercise__c' == 0; q = filter q by (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,1,1], [9999,12,31])] &&  'Service_Line__c' != \"Resourcing & FSP Services (DOCS)\" && 'Reporting_Version__c' == 1 ) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([1900,1,1], [2018,12,31])] && 'Reporting_Version__c' == 1 ) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,4,1], [9999,12,31])] && 'Counted_for_DOCS_Proposal_Submitted__c' == \"true\"); q = filter q by 'Opportunity_ID__c.DOCS_Retail_Opportunity__c' == \"false\"; q = filter q by !('Opportunity_ID__c.RFP_Number_ICOBid__c' in [\"19-1887\", \"19-1888\", \"19-1910\"]); \nq = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day')\")}}; q = filter q by 'Opportunity_ID__c.Ballpark_Costing_Excercise__c' == 0; \nq = filter q by 'Opportunity_ID__c.AccountId.Name' != \"GPT Test Account\";\nq = filter q by 'Opportunity_ID__c.RecordTypeId.DeveloperName' in [\"Direct_To_Contract_Opportunity\", \"IFS_Opportunity\", \"RFP_Closed\", \"Sales_Opportunity\", \"ICO_Ops_Opportunity\", \"MM_RFP\"];\nq = filter q by 'Opportunity_ID__c.Sales_Adjustment_Opportuntiy__c' == \"false\";\nq = group q by ('Opportunity_ID__c.Therapeutic_Area__c');\nq = foreach q generate 'Opportunity_ID__c.Therapeutic_Area__c' as 'Therapeutic Area', unique('Opportunity_ID__c') as 'Number', sum('Total_Value_of_Service_Area__c') as 'Amount';\np = load \"Non_IBD_Proposal_Submitted\"; p = filter p by 'Ballpark' == 0; \np = filter p by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day')\")}};\np = group p by ('Therapeutic_Area');\np = foreach p generate 'Therapeutic_Area' as 'Therapeutic Area', count() as 'Number', sum('Total_Value_of_Service_Area') as 'Amount';\nresult = union q,p;\nresult = order result by ('Therapeutic Area' asc);\nsummary = group result by ('Therapeutic Area');\nsummary = foreach summary generate sum(sum('Number')) over([..] partition by all) as 'Number_total', sum(sum('Amount')) over([..] partition by all) as 'Amount_total';\nsummary = limit summary 1;\nresult = limit result 10000;\nresult = union result, summary;",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "borderColor": "#e0e5ee",
+                        "borderWidth": 1,
+                        "cell": {
+                            "backgroundColor": "#ffffff",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "columnProperties": {},
+                        "columns": [],
+                        "customBulkActions": [],
+                        "header": {
+                            "backgroundColor": "#f4f6f9",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "innerMajorBorderColor": "#a8b7c7",
+                        "innerMinorBorderColor": "#e0e5ee",
+                        "maxColumnWidth": 300,
+                        "minColumnWidth": 40,
+                        "mode": "variable",
+                        "numberOfLines": 1,
+                        "showActionMenu": true,
+                        "verticalPadding": 8
+                    },
+                    "type": "table"
+                }
+            },
+            "RFP_Ballpark_Tier1&2_AllICON": {
+                "broadcastFacet": true,
+                "groups": [],
+                "label": "RFP_Ballpark_Tier1&2_AllICON",
+                "numbers": [],
+                "query": "q = load \"Opportunity_with_Service_Area_New_Service_Area_Group\"; q = filter q by 'Opportunity_ID__c.AccountId.Tier__c' in [\"Tier 1\",\"Tier 2\"]; q = filter q by (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,1,1], [9999,12,31])] &&  'Service_Line__c' != \"Resourcing & FSP Services (DOCS)\" && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([1900,1,1], [2018,12,31])] && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,4,1], [9999,12,31])] && 'Counted_for_DOCS_Proposal_Submitted__c' == \"true\"); q = filter q by !('Opportunity_ID__c.RFP_Number_ICOBid__c' in [\"19-1887\", \"19-1888\", \"19-1910\"]); q = filter q by 'Opportunity_ID__c.DOCS_Retail_Opportunity__c' == \"false\"; \nq = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day')\")}}; \nq = filter q by 'Opportunity_ID__c.AccountId.Name' != \"GPT Test Account\";\nq = filter q by 'Opportunity_ID__c.RecordTypeId.DeveloperName' in [\"Direct_To_Contract_Opportunity\", \"IFS_Opportunity\", \"RFP_Closed\", \"Sales_Opportunity\", \"ICO_Ops_Opportunity\", \"MM_RFP\"];\nq = filter q by 'Opportunity_ID__c.Sales_Adjustment_Opportuntiy__c' == \"false\";     q_RFP = filter q by 'Opportunity_ID__c.Ballpark_Costing_Excercise__c' == 0; q_RFP = group q_RFP by ('Opportunity_ID__c.AccountId.Tier__c', 'Opportunity_ID__c.AccountId.Target_Account_Name__c'); \nq_RFP = foreach q_RFP generate 'Opportunity_ID__c.AccountId.Tier__c' as 'Tier','Opportunity_ID__c.AccountId.Target_Account_Name__c' as 'AccountName', sum('Total_Value_of_Service_Area__c') as 'RFP'; q_Ballpark = filter q by 'Opportunity_ID__c.Ballpark_Costing_Excercise__c' == 1; q_Ballpark = group q_Ballpark by ('Opportunity_ID__c.AccountId.Tier__c', 'Opportunity_ID__c.AccountId.Target_Account_Name__c'); \nq_Ballpark = foreach q_Ballpark generate 'Opportunity_ID__c.AccountId.Tier__c' as 'Tier','Opportunity_ID__c.AccountId.Target_Account_Name__c' as 'AccountName', sum('Total_Value_of_Service_Area__c') as 'Ballpark';   \nq = group q by ('Opportunity_ID__c.AccountId.Tier__c', 'Opportunity_ID__c.AccountId.Target_Account_Name__c');\nq = foreach q generate 'Opportunity_ID__c.AccountId.Tier__c' as 'Tier','Opportunity_ID__c.AccountId.Target_Account_Name__c' as 'AccountName', sum('Total_Value_of_Service_Area__c') as 'Amount'; \np = load \"Non_IBD_Proposal_Submitted\"; p = filter p by 'Tier' in [\"Tier 1\",\"Tier 2\"];\np = filter p by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day')\")}};   p_RFP = filter p by 'Ballpark' == 0;\np_RFP = group p_RFP by ('Tier','Target_Account_Name');\np_RFP = foreach p_RFP generate 'Tier' as 'Tier','Target_Account_Name' as 'AccountName', sum('Total_Value_of_Service_Area') as 'RFP'; p_Ballpark = filter p by 'Ballpark' == 1;\np_Ballpark = group p_Ballpark by ('Tier','Target_Account_Name');\np_Ballpark = foreach p_Ballpark generate 'Tier' as 'Tier','Target_Account_Name' as 'AccountName', sum('Total_Value_of_Service_Area') as 'Ballpark';    \np = group p by ('Tier','Target_Account_Name');\np = foreach p generate 'Tier' as 'Tier','Target_Account_Name' as 'AccountName', sum('Total_Value_of_Service_Area') as 'Amount';\nresult = union q,p,q_RFP,q_Ballpark,p_RFP,p_Ballpark;      TARGETS = load \"TARGETS\"; TARGETS = filter TARGETS by 'Target_Category' in [\"Tier 1\",\"Tier 2\"]; TARGETS = filter TARGETS by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Date_Year', 'Date_Month', 'Date_Day')\")}}; TARGETS = filter TARGETS by 'Target_Bucket' == \"Account Proposal Target\"; leaderboard = cogroup TARGETS by ('Target_Category','Label') left, result by ('Tier','AccountName'); leaderboard = foreach leaderboard generate coalesce(TARGETS.'Target_Category', result.'Tier') as 'Tier',coalesce(TARGETS.'Label', result.'AccountName') as 'Account Name', coalesce(sum(result.'RFP'),0) as 'RFP', coalesce(sum(result.'Ballpark'),0) as 'Ballpark', coalesce(sum(result.'Amount'),0) as 'Total Submitted Amount', coalesce(sum(TARGETS.'Amount'),0) as 'Targets', coalesce(coalesce(sum(result.'Amount'),0)/coalesce(sum(TARGETS.'Amount'),0),0) as 'Submitted vs Target';  \nsummary = group leaderboard by ('Tier','Account Name');\nsummary = foreach summary generate sum(sum('RFP')) over([..] partition by all) as 'RFP_total', sum(sum('Ballpark')) over([..] partition by all) as 'Ballpark_total', sum(sum('Total Submitted Amount')) over([..] partition by all) as 'Total Submitted Amount_total', sum(sum('Targets')) over([..] partition by all) as 'Targets_total', sum(sum('Total Submitted Amount')) over([..] partition by all)/sum(sum('Targets')) over([..] partition by all) as 'Submitted vs Target_total';\nsummary = limit summary 1;\nresult = limit result 10000;\nresult = union leaderboard, summary;",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "borderColor": "#e0e5ee",
+                        "borderWidth": 1,
+                        "cell": {
+                            "backgroundColor": "#ffffff",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "columnProperties": {},
+                        "columns": [],
+                        "customBulkActions": [],
+                        "header": {
+                            "backgroundColor": "#f4f6f9",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "innerMajorBorderColor": "#a8b7c7",
+                        "innerMinorBorderColor": "#e0e5ee",
+                        "maxColumnWidth": 300,
+                        "minColumnWidth": 40,
+                        "mode": "variable",
+                        "numberOfLines": 1,
+                        "showActionMenu": true,
+                        "verticalPadding": 8
+                    },
+                    "type": "table"
+                }
+            },
+            "Ballpark_MarketSector_AllICON": {
+                "broadcastFacet": true,
+                "groups": [],
+                "label": "Ballpark_MarketSector_AllICON",
+                "numbers": [],
+                "query": "q = load \"Opportunity_with_Service_Area_New_Service_Area_Group\"; q = filter q by (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,1,1], [9999,12,31])] &&  'Service_Line__c' != \"Resourcing & FSP Services (DOCS)\" && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([1900,1,1], [2018,12,31])] && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,4,1], [9999,12,31])] && 'Counted_for_DOCS_Proposal_Submitted__c' == \"true\"); q = filter q by 'Opportunity_ID__c.DOCS_Retail_Opportunity__c' == \"false\"; q = filter q by !('Opportunity_ID__c.RFP_Number_ICOBid__c' in [\"19-1887\", \"19-1888\", \"19-1910\"]); q = filter q by 'Opportunity_ID__c.Ballpark_Costing_Excercise__c' == 1; \nq = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day')\")}};\nq = filter q by 'Opportunity_ID__c.AccountId.Name' != \"GPT Test Account\";\nq = filter q by 'Opportunity_ID__c.RecordTypeId.DeveloperName' in [\"Direct_To_Contract_Opportunity\", \"IFS_Opportunity\", \"RFP_Closed\", \"Sales_Opportunity\", \"ICO_Ops_Opportunity\", \"MM_RFP\"];\nq = filter q by 'Opportunity_ID__c.Sales_Adjustment_Opportuntiy__c' == \"false\";\nq = group q by ('Opportunity_ID__c.AccountId.Corporate_Market_Sec__c');\nq = foreach q generate 'Opportunity_ID__c.AccountId.Corporate_Market_Sec__c' as 'Market Sector', unique('Opportunity_ID__c') as 'Number', sum('Total_Value_of_Service_Area__c') as 'Amount';\np = load \"Non_IBD_Proposal_Submitted\"; p = filter p by 'Ballpark' == 1; \np = filter p by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day')\")}};\np = group p by ('Market_Sector');\np = foreach p generate 'Market_Sector' as 'Market Sector', count() as 'Number', sum('Total_Value_of_Service_Area') as 'Amount';\nresult = union q,p;\nresult = order result by ('Market Sector' asc);\nsummary = group result by ('Market Sector');\nsummary = foreach summary generate sum(sum('Number')) over([..] partition by all) as 'Number_total', sum(sum('Amount')) over([..] partition by all) as 'Amount_total';\nsummary = limit summary 1;\nresult = limit result 10000;\nresult = union result, summary;",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "borderColor": "#e0e5ee",
+                        "borderWidth": 1,
+                        "cell": {
+                            "backgroundColor": "#ffffff",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "columnProperties": {},
+                        "columns": [],
+                        "customBulkActions": [],
+                        "header": {
+                            "backgroundColor": "#f4f6f9",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "innerMajorBorderColor": "#a8b7c7",
+                        "innerMinorBorderColor": "#e0e5ee",
+                        "maxColumnWidth": 300,
+                        "minColumnWidth": 40,
+                        "mode": "variable",
+                        "numberOfLines": 1,
+                        "showActionMenu": true,
+                        "verticalPadding": 8
+                    },
+                    "type": "table"
+                }
+            },
+            "Ballpark_Tier_AllICON": {
+                "broadcastFacet": true,
+                "groups": [],
+                "label": "Ballpark_OrigRegion_AllICON",
+                "numbers": [],
+                "query": "q = load \"Opportunity_with_Service_Area_New_Service_Area_Group\"; q = filter q by (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,1,1], [9999,12,31])] &&  'Service_Line__c' != \"Resourcing & FSP Services (DOCS)\" && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([1900,1,1], [2018,12,31])] && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,4,1], [9999,12,31])] && 'Counted_for_DOCS_Proposal_Submitted__c' == \"true\"); q = filter q by 'Opportunity_ID__c.DOCS_Retail_Opportunity__c' == \"false\"; q = filter q by !('Opportunity_ID__c.RFP_Number_ICOBid__c' in [\"19-1887\", \"19-1888\", \"19-1910\"]); q = filter q by 'Opportunity_ID__c.Ballpark_Costing_Excercise__c' == 1; \nq = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day')\")}};\nq = filter q by 'Opportunity_ID__c.AccountId.Name' != \"GPT Test Account\";\nq = filter q by 'Opportunity_ID__c.RecordTypeId.DeveloperName' in [\"Direct_To_Contract_Opportunity\", \"IFS_Opportunity\", \"RFP_Closed\", \"Sales_Opportunity\", \"ICO_Ops_Opportunity\", \"MM_RFP\"];\nq = filter q by 'Opportunity_ID__c.Sales_Adjustment_Opportuntiy__c' == \"false\";\nq = group q by ('Opportunity_ID__c.AccountId.Tier__c');\nq = foreach q generate 'Opportunity_ID__c.AccountId.Tier__c' as 'Tier', unique('Opportunity_ID__c') as 'Number', sum('Total_Value_of_Service_Area__c') as 'Amount';\np = load \"Non_IBD_Proposal_Submitted\"; p = filter p by 'Ballpark' == 1; \np = filter p by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day')\")}};\np = group p by ('Tier');\np = foreach p generate 'Tier' as 'Tier', count() as 'Number', sum('Total_Value_of_Service_Area') as 'Amount';\nresult = union q,p;\nresult = order result by ('Tier' asc);\nsummary = group result by ('Tier');\nsummary = foreach summary generate sum(sum('Number')) over([..] partition by all) as 'Number_total', sum(sum('Amount')) over([..] partition by all) as 'Amount_total';\nsummary = limit summary 1;\nresult = limit result 10000;\nresult = union result, summary;",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "borderColor": "#e0e5ee",
+                        "borderWidth": 1,
+                        "cell": {
+                            "backgroundColor": "#ffffff",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "columnProperties": {},
+                        "columns": [],
+                        "customBulkActions": [],
+                        "header": {
+                            "backgroundColor": "#f4f6f9",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "innerMajorBorderColor": "#a8b7c7",
+                        "innerMinorBorderColor": "#e0e5ee",
+                        "maxColumnWidth": 300,
+                        "minColumnWidth": 40,
+                        "mode": "variable",
+                        "numberOfLines": 1,
+                        "showActionMenu": true,
+                        "verticalPadding": 8
+                    },
+                    "type": "table"
+                }
+            },
+            "Ballpark_OrigRegion_AllICON": {
+                "broadcastFacet": true,
+                "groups": [],
+                "label": "Ballpark_OrigRegion_AllICON",
+                "numbers": [],
+                "query": "q = load \"Opportunity_with_Service_Area_New_Service_Area_Group\"; q = filter q by (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,1,1], [9999,12,31])] &&  'Service_Line__c' != \"Resourcing & FSP Services (DOCS)\" && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([1900,1,1], [2018,12,31])] && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,4,1], [9999,12,31])] && 'Counted_for_DOCS_Proposal_Submitted__c' == \"true\"); q = filter q by !('Opportunity_ID__c.RFP_Number_ICOBid__c' in [\"19-1887\", \"19-1888\", \"19-1910\"]); q = filter q by 'Opportunity_ID__c.Ballpark_Costing_Excercise__c' == 1; \nq = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day')\")}};\nq = filter q by 'Opportunity_ID__c.AccountId.Name' != \"GPT Test Account\";\nq = filter q by 'Opportunity_ID__c.RecordTypeId.DeveloperName' in [\"Direct_To_Contract_Opportunity\", \"IFS_Opportunity\", \"RFP_Closed\", \"Sales_Opportunity\", \"ICO_Ops_Opportunity\", \"MM_RFP\"];\nq = filter q by 'Opportunity_ID__c.Sales_Adjustment_Opportuntiy__c' == \"false\";\nq = group q by ('Opportunity_ID_c_Originating_Service_Area_c_text1');\nq = foreach q generate 'Opportunity_ID_c_Originating_Service_Area_c_text1' as 'Originating Region', unique('Opportunity_ID__c') as 'Number', sum('Total_Value_of_Service_Area__c') as 'Amount';\np = load \"Non_IBD_Proposal_Submitted\"; p = filter p by 'Ballpark' == 1; \np = filter p by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day')\")}};\np = group p by ('Originating_Region');\np = foreach p generate 'Originating_Region' as 'Originating Region', count() as 'Number', sum('Total_Value_of_Service_Area') as 'Amount';\nresult = union q,p;\nresult = order result by ('Originating Region' asc);\nsummary = group result by ('Originating Region');\nsummary = foreach summary generate sum(sum('Number')) over([..] partition by all) as 'Number_total', sum(sum('Amount')) over([..] partition by all) as 'Amount_total';\nsummary = limit summary 1;\nresult = limit result 10000;\nresult = union result, summary;",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "borderColor": "#e0e5ee",
+                        "borderWidth": 1,
+                        "cell": {
+                            "backgroundColor": "#ffffff",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "columnProperties": {},
+                        "columns": [],
+                        "customBulkActions": [],
+                        "header": {
+                            "backgroundColor": "#f4f6f9",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "innerMajorBorderColor": "#a8b7c7",
+                        "innerMinorBorderColor": "#e0e5ee",
+                        "maxColumnWidth": 300,
+                        "minColumnWidth": 40,
+                        "mode": "variable",
+                        "numberOfLines": 1,
+                        "showActionMenu": true,
+                        "verticalPadding": 8
+                    },
+                    "type": "table"
+                }
+            },
+            "DetailsTable": {
+                "broadcastFacet": true,
+                "groups": [],
+                "numbers": [],
+                "query": "q = load \"Opportunity_with_Service_Area_New_Service_Area_Group\"; q = filter q by (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,1,1], [9999,12,31])] &&  'Service_Line__c' != \"Resourcing & FSP Services (DOCS)\" && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([1900,1,1], [2018,12,31])] && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,4,1], [9999,12,31])] && 'Counted_for_DOCS_Proposal_Submitted__c' == \"true\"); q = filter q by 'Opportunity_ID__c.DOCS_Retail_Opportunity__c' == \"false\"; q = filter q by !('Opportunity_ID__c.RFP_Number_ICOBid__c' in [\"19-1887\", \"19-1888\", \"19-1910\"]); \nq = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day')\")}};\nq = filter q by 'Opportunity_ID__c.AccountId.Name' != \"GPT Test Account\";\nq = filter q by 'Opportunity_ID__c.RecordTypeId.DeveloperName' in [\"Direct_To_Contract_Opportunity\", \"IFS_Opportunity\", \"RFP_Closed\", \"Sales_Opportunity\", \"ICO_Ops_Opportunity\", \"MM_RFP\"];\nq = filter q by 'Opportunity_ID__c.Sales_Adjustment_Opportuntiy__c' == \"false\";\nq = group q by ('Opportunity_ID__c.RFP_Number_ICOBid__c', 'Opportunity_ID__c.Name', 'Opportunity_ID__c.AccountId.Target_Account_Name__c', 'Opportunity_ID__c.AccountId.Name', 'Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day','Opportunity_ID_c_Originating_Service_Area_c_text_t', 'Opportunity_ID_c_Originating_Service_Area_c_text','Opportunity_ID_c_Originating_Service_Area_c_text1','Opportunity_ID__c.AccountId.Tier__c','Opportunity_ID__c.AccountId.Corporate_Market_Sec__c','Opportunity_ID__c.Therapeutic_Area__c', 'Opportunity_ID_c_Ballpark_Costing_Excercise_c_ra');\nq = foreach q generate 'Opportunity_ID__c.RFP_Number_ICOBid__c' as 'Opportunity Number', 'Opportunity_ID__c.Name' as 'Opportunity Name', 'Opportunity_ID__c.AccountId.Target_Account_Name__c' as 'Target Account Name', 'Opportunity_ID__c.AccountId.Name' as 'Account Name', 'Reporting_Proposal_Submitted_Date__c_Year' + \"~~~\" + 'Reporting_Proposal_Submitted_Date__c_Month' + \"~~~\" + 'Reporting_Proposal_Submitted_Date__c_Day' as 'Date_Year~~~Date_Month~~~Date_Day', 'Opportunity_ID_c_Originating_Service_Area_c_text_t' as 'Function', 'Opportunity_ID_c_Originating_Service_Area_c_text' as 'Originating Service Area', 'Opportunity_ID_c_Originating_Service_Area_c_text1' as 'Originating Region','Opportunity_ID__c.AccountId.Tier__c' as 'Tier','Opportunity_ID__c.AccountId.Corporate_Market_Sec__c' as 'Market Sector','Opportunity_ID__c.Therapeutic_Area__c' as 'Therapeutic Area', 'Opportunity_ID_c_Ballpark_Costing_Excercise_c_ra' as 'Ballpark', unique('Opportunity_ID__c') as 'Number', sum('Total_Value_of_Service_Area__c') as 'Amount', max('Opportunity_ID__c.Total_Pass_Through_Costs__c') as 'Pass-through';\np = load \"Non_IBD_Proposal_Submitted\"; \np = filter p by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day')\")}}; \np = group p by ('Opportunity_Number', 'Opportunity_Name', 'Target_Account_Name', 'Account_Name', 'Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day', 'Originating_Service_Area_GSR_Service_Area', 'Originating_Service_Area', 'Originating_Region', 'Tier', 'Market_Sector', 'Therapeutic_Area', 'Ballpark_Group');\np = foreach p generate  'Opportunity_Number' as 'Opportunity Number', 'Opportunity_Name' as 'Opportunity Name', 'Target_Account_Name' as 'Target Account Name', 'Account_Name' as 'Account Name', 'Proposal_Submitted_Date_All_ICON__c_Year' + \"~~~\" + 'Proposal_Submitted_Date_All_ICON__c_Month' + \"~~~\" + 'Proposal_Submitted_Date_All_ICON__c_Day' as 'Date_Year~~~Date_Month~~~Date_Day', 'Originating_Service_Area_GSR_Service_Area' as 'Function', 'Originating_Service_Area' as 'Originating Service Area', 'Originating_Region' as 'Originating Region', 'Tier' as 'Tier', 'Market_Sector' as 'Market Sector', 'Therapeutic_Area' as 'Therapeutic Area', 'Ballpark_Group' as 'Ballpark', count() as 'Number', sum('Total_Value_of_Service_Area') as 'Amount', max('Pass_through') as 'Pass-through';\nresult = union q,p;",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "borderColor": "#e0e5ee",
+                        "borderWidth": 1,
+                        "cell": {
+                            "backgroundColor": "#ffffff",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "columnProperties": {},
+                        "columns": [],
+                        "customBulkActions": [],
+                        "header": {
+                            "backgroundColor": "#f4f6f9",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "innerMajorBorderColor": "#a8b7c7",
+                        "innerMinorBorderColor": "#e0e5ee",
+                        "maxColumnWidth": 300,
+                        "minColumnWidth": 40,
+                        "mode": "variable",
+                        "numberOfLines": 1,
+                        "showActionMenu": true,
+                        "verticalPadding": 8
+                    },
+                    "type": "table"
+                }
+            },
+            "Ballpark_TherapeuticArea_AllICON": {
+                "broadcastFacet": true,
+                "groups": [],
+                "label": "Ballpark_OrigRegion_AllICON",
+                "numbers": [],
+                "query": "q = load \"Opportunity_with_Service_Area_New_Service_Area_Group\"; q = filter q by (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,1,1], [9999,12,31])] &&  'Service_Line__c' != \"Resourcing & FSP Services (DOCS)\" && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([1900,1,1], [2018,12,31])] && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,4,1], [9999,12,31])] && 'Counted_for_DOCS_Proposal_Submitted__c' == \"true\"); q = filter q by 'Opportunity_ID__c.DOCS_Retail_Opportunity__c' == \"false\"; q = filter q by !('Opportunity_ID__c.RFP_Number_ICOBid__c' in [\"19-1887\", \"19-1888\", \"19-1910\"]); q = filter q by 'Opportunity_ID__c.Ballpark_Costing_Excercise__c' == 1; \nq = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day')\")}};\nq = filter q by 'Opportunity_ID__c.AccountId.Name' != \"GPT Test Account\";\nq = filter q by 'Opportunity_ID__c.RecordTypeId.DeveloperName' in [\"Direct_To_Contract_Opportunity\", \"IFS_Opportunity\", \"RFP_Closed\", \"Sales_Opportunity\", \"ICO_Ops_Opportunity\", \"MM_RFP\"];\nq = filter q by 'Opportunity_ID__c.Sales_Adjustment_Opportuntiy__c' == \"false\";\nq = group q by ('Opportunity_ID__c.Therapeutic_Area__c');\nq = foreach q generate 'Opportunity_ID__c.Therapeutic_Area__c' as 'Therapeutic Area', unique('Opportunity_ID__c') as 'Number', sum('Total_Value_of_Service_Area__c') as 'Amount';\np = load \"Non_IBD_Proposal_Submitted\"; p = filter p by 'Ballpark' == 1; \np = filter p by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day')\")}};\np = group p by ('Therapeutic_Area');\np = foreach p generate 'Therapeutic_Area' as 'Therapeutic Area', count() as 'Number', sum('Total_Value_of_Service_Area') as 'Amount';\nresult = union q,p;\nresult = order result by ('Therapeutic Area' asc);\nsummary = group result by ('Therapeutic Area');\nsummary = foreach summary generate sum(sum('Number')) over([..] partition by all) as 'Number_total', sum(sum('Amount')) over([..] partition by all) as 'Amount_total';\nsummary = limit summary 1;\nresult = limit result 10000;\nresult = union result, summary;",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "borderColor": "#e0e5ee",
+                        "borderWidth": 1,
+                        "cell": {
+                            "backgroundColor": "#ffffff",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "columnProperties": {},
+                        "columns": [],
+                        "customBulkActions": [],
+                        "header": {
+                            "backgroundColor": "#f4f6f9",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "innerMajorBorderColor": "#a8b7c7",
+                        "innerMinorBorderColor": "#e0e5ee",
+                        "maxColumnWidth": 300,
+                        "minColumnWidth": 40,
+                        "mode": "variable",
+                        "numberOfLines": 1,
+                        "showActionMenu": true,
+                        "verticalPadding": 8
+                    },
+                    "type": "table"
+                }
+            },
+            "RFP_Tier1Accounts_AllICON": {
+                "broadcastFacet": true,
+                "groups": [],
+                "label": "RFP_Tier1Accounts_AllICON",
+                "numbers": [],
+                "query": "q = load \"Opportunity_with_Service_Area_New_Service_Area_Group\"; q = filter q by (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,1,1], [9999,12,31])] &&  'Service_Line__c' != \"Resourcing & FSP Services (DOCS)\" && 'Reporting_Version__c' == 1 ) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([1900,1,1], [2018,12,31])] && 'Reporting_Version__c' == 1 ) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,4,1], [9999,12,31])] && 'Counted_for_DOCS_Proposal_Submitted__c' == \"true\"); q = filter q by 'Opportunity_ID__c.DOCS_Retail_Opportunity__c' == \"false\"; q = filter q by !('Opportunity_ID__c.RFP_Number_ICOBid__c' in [\"19-1887\", \"19-1888\", \"19-1910\"]); q = filter q by 'Opportunity_ID__c.Ballpark_Costing_Excercise__c' == 0; q = filter q by 'Opportunity_ID__c.AccountId.Tier__c' == \"Tier 1\"; \nq = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day')\")}};\nq = filter q by 'Opportunity_ID__c.AccountId.Name' != \"GPT Test Account\";\nq = filter q by 'Opportunity_ID__c.RecordTypeId.DeveloperName' in [\"Direct_To_Contract_Opportunity\", \"IFS_Opportunity\", \"RFP_Closed\", \"Sales_Opportunity\", \"ICO_Ops_Opportunity\", \"MM_RFP\"];\nq = filter q by 'Opportunity_ID__c.Sales_Adjustment_Opportuntiy__c' == \"false\";\nq = group q by ('Opportunity_ID__c.AccountId.Target_Account_Name__c');\nq = foreach q generate 'Opportunity_ID__c.AccountId.Target_Account_Name__c' as 'Account Name', unique('Opportunity_ID__c') as 'Number', sum('Total_Value_of_Service_Area__c') as 'Amount';\np = load \"Non_IBD_Proposal_Submitted\"; p = filter p by 'Ballpark' == 0; p = filter p by 'Tier' == \"Tier 1\"; \np = filter p by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day')\")}};\np = group p by ('Target_Account_Name');\np = foreach p generate 'Target_Account_Name' as 'Account Name', count() as 'Number', sum('Total_Value_of_Service_Area') as 'Amount';\nresult = union q,p;\nresult = order result by ('Account Name' asc);\nsummary = group result by ('Account Name');\nsummary = foreach summary generate sum(sum('Number')) over([..] partition by all) as 'Number_total', sum(sum('Amount')) over([..] partition by all) as 'Amount_total';\nsummary = limit summary 1;\nresult = limit result 10000;\nresult = union result, summary;",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "borderColor": "#e0e5ee",
+                        "borderWidth": 1,
+                        "cell": {
+                            "backgroundColor": "#ffffff",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "columnProperties": {},
+                        "columns": [],
+                        "customBulkActions": [],
+                        "header": {
+                            "backgroundColor": "#f4f6f9",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "innerMajorBorderColor": "#a8b7c7",
+                        "innerMinorBorderColor": "#e0e5ee",
+                        "maxColumnWidth": 300,
+                        "minColumnWidth": 40,
+                        "mode": "variable",
+                        "numberOfLines": 1,
+                        "showActionMenu": true,
+                        "verticalPadding": 8
+                    },
+                    "type": "table"
+                }
+            },
+            "RFP_MarketSector_AllICON": {
+                "broadcastFacet": true,
+                "groups": [],
+                "label": "RFP_MarketSector_AllICON",
+                "numbers": [],
+                "query": "q = load \"Opportunity_with_Service_Area_New_Service_Area_Group\"; q = filter q by (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,1,1], [9999,12,31])] &&  'Service_Line__c' != \"Resourcing & FSP Services (DOCS)\" && 'Reporting_Version__c' == 1 ) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([1900,1,1], [2018,12,31])] && 'Reporting_Version__c' == 1 ) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,4,1], [9999,12,31])] && 'Counted_for_DOCS_Proposal_Submitted__c' == \"true\"); q = filter q by 'Opportunity_ID__c.DOCS_Retail_Opportunity__c' == \"false\"; q = filter q by !('Opportunity_ID__c.RFP_Number_ICOBid__c' in [\"19-1887\", \"19-1888\", \"19-1910\"]); q = filter q by 'Opportunity_ID__c.Ballpark_Costing_Excercise__c' == 0; \nq = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day')\")}};\nq = filter q by 'Opportunity_ID__c.AccountId.Name' != \"GPT Test Account\";\nq = filter q by 'Opportunity_ID__c.RecordTypeId.DeveloperName' in [\"Direct_To_Contract_Opportunity\", \"IFS_Opportunity\", \"RFP_Closed\", \"Sales_Opportunity\", \"ICO_Ops_Opportunity\", \"MM_RFP\"];\nq = filter q by 'Opportunity_ID__c.Sales_Adjustment_Opportuntiy__c' == \"false\";\nq = group q by ('Opportunity_ID__c.AccountId.Corporate_Market_Sec__c');\nq = foreach q generate 'Opportunity_ID__c.AccountId.Corporate_Market_Sec__c' as 'Market Sector', unique('Opportunity_ID__c') as 'Number', sum('Total_Value_of_Service_Area__c') as 'Amount';\np = load \"Non_IBD_Proposal_Submitted\"; p = filter p by 'Ballpark' == 0; \np = filter p by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day')\")}};\np = group p by ('Market_Sector');\np = foreach p generate 'Market_Sector' as 'Market Sector', count() as 'Number', sum('Total_Value_of_Service_Area') as 'Amount';\nresult = union q,p;\nresult = order result by ('Market Sector' asc);\nsummary = group result by ('Market Sector');\nsummary = foreach summary generate sum(sum('Number')) over([..] partition by all) as 'Number_total', sum(sum('Amount')) over([..] partition by all) as 'Amount_total';\nsummary = limit summary 1;\nresult = limit result 10000;\nresult = union result, summary;",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "borderColor": "#e0e5ee",
+                        "borderWidth": 1,
+                        "cell": {
+                            "backgroundColor": "#ffffff",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "columnProperties": {},
+                        "columns": [],
+                        "customBulkActions": [],
+                        "header": {
+                            "backgroundColor": "#f4f6f9",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "innerMajorBorderColor": "#a8b7c7",
+                        "innerMinorBorderColor": "#e0e5ee",
+                        "maxColumnWidth": 300,
+                        "minColumnWidth": 40,
+                        "mode": "variable",
+                        "numberOfLines": 1,
+                        "showActionMenu": true,
+                        "verticalPadding": 8
+                    },
+                    "type": "table"
+                }
+            },
+            "Ballpark_Tier1Accounts_AllICON": {
+                "broadcastFacet": true,
+                "groups": [],
+                "label": "Ballpark_Tier1Accounts_AllICON",
+                "numbers": [],
+                "query": "q = load \"Opportunity_with_Service_Area_New_Service_Area_Group\"; q = filter q by (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,1,1], [9999,12,31])] &&  'Service_Line__c' != \"Resourcing & FSP Services (DOCS)\" && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([1900,1,1], [2018,12,31])] && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,4,1], [9999,12,31])] && 'Counted_for_DOCS_Proposal_Submitted__c' == \"true\"); q = filter q by 'Opportunity_ID__c.DOCS_Retail_Opportunity__c' == \"false\"; q = filter q by !('Opportunity_ID__c.RFP_Number_ICOBid__c' in [\"19-1887\", \"19-1888\", \"19-1910\"]); q = filter q by 'Opportunity_ID__c.Ballpark_Costing_Excercise__c' == 1; q = filter q by 'Opportunity_ID__c.AccountId.Tier__c' == \"Tier 1\"; \nq = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day')\")}};\nq = filter q by 'Opportunity_ID__c.AccountId.Name' != \"GPT Test Account\";\nq = filter q by 'Opportunity_ID__c.RecordTypeId.DeveloperName' in [\"Direct_To_Contract_Opportunity\", \"IFS_Opportunity\", \"RFP_Closed\", \"Sales_Opportunity\", \"ICO_Ops_Opportunity\", \"MM_RFP\"];\nq = filter q by 'Opportunity_ID__c.Sales_Adjustment_Opportuntiy__c' == \"false\";\nq = group q by ('Opportunity_ID__c.AccountId.Target_Account_Name__c');\nq = foreach q generate 'Opportunity_ID__c.AccountId.Target_Account_Name__c' as 'Account Name', unique('Opportunity_ID__c') as 'Number', sum('Total_Value_of_Service_Area__c') as 'Amount';\np = load \"Non_IBD_Proposal_Submitted\"; p = filter p by 'Ballpark' == 1; p = filter p by 'Tier' == \"Tier 1\"; \np = filter p by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day')\")}};\np = group p by ('Target_Account_Name');\np = foreach p generate 'Target_Account_Name' as 'Account Name', count() as 'Number', sum('Total_Value_of_Service_Area') as 'Amount';\nresult = union q,p;\nresult = order result by ('Account Name' asc);\nsummary = group result by ('Account Name');\nsummary = foreach summary generate sum(sum('Number')) over([..] partition by all) as 'Number_total', sum(sum('Amount')) over([..] partition by all) as 'Amount_total';\nsummary = limit summary 1;\nresult = limit result 10000;\nresult = union result, summary;",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "borderColor": "#e0e5ee",
+                        "borderWidth": 1,
+                        "cell": {
+                            "backgroundColor": "#ffffff",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "columnProperties": {},
+                        "columns": [],
+                        "customBulkActions": [],
+                        "header": {
+                            "backgroundColor": "#f4f6f9",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "innerMajorBorderColor": "#a8b7c7",
+                        "innerMinorBorderColor": "#e0e5ee",
+                        "maxColumnWidth": 300,
+                        "minColumnWidth": 40,
+                        "mode": "variable",
+                        "numberOfLines": 1,
+                        "showActionMenu": true,
+                        "verticalPadding": 8
+                    },
+                    "type": "table"
+                }
+            },
+            "DetailsTable_DirectFeesNumberWidget": {
+                "broadcastFacet": true,
+                "groups": [],
+                "numbers": [],
+                "query": "q = load \"Opportunity_with_Service_Area_New_Service_Area_Group\"; q = filter q by (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,1,1], [9999,12,31])] &&  'Service_Line__c' != \"Resourcing & FSP Services (DOCS)\" && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([1900,1,1], [2018,12,31])] && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,4,1], [9999,12,31])] && 'Counted_for_DOCS_Proposal_Submitted__c' == \"true\"); q = filter q by 'Opportunity_ID__c.DOCS_Retail_Opportunity__c' == \"false\"; q = filter q by !('Opportunity_ID__c.RFP_Number_ICOBid__c' in [\"19-1887\", \"19-1888\", \"19-1910\"]); \nq = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day')\")}};\nq = filter q by 'Opportunity_ID__c.AccountId.Name' != \"GPT Test Account\";\nq = filter q by 'Opportunity_ID__c.RecordTypeId.DeveloperName' in [\"Direct_To_Contract_Opportunity\", \"IFS_Opportunity\", \"RFP_Closed\", \"Sales_Opportunity\", \"ICO_Ops_Opportunity\", \"MM_RFP\"];\nq = filter q by 'Opportunity_ID__c.Sales_Adjustment_Opportuntiy__c' == \"false\";\nq = group q by all;\nq = foreach q generate sum('Total_Value_of_Service_Area__c') as 'Amount';\np = load \"Non_IBD_Proposal_Submitted\"; \np = filter p by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day')\")}}; \np = group p by all;\np = foreach p generate  sum('Total_Value_of_Service_Area') as 'Amount';\nresult = union q,p;",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "keepLabels",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "descOrder": false,
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "tooltip": {
+                            "showBinLabel": true,
+                            "measures": "",
+                            "showNullValues": true,
+                            "showPercentage": true,
+                            "showDimensions": true,
+                            "showMeasures": true,
+                            "customizeTooltip": false,
+                            "dimensions": ""
+                        },
+                        "visualizationType": "hbar",
+                        "title": {
+                            "fontSize": 14,
+                            "subtitleFontSize": 11,
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "size": [
+                                100,
+                                100
+                            ],
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "columnMap": {
+                            "trellis": [],
+                            "dimensionAxis": [],
+                            "plots": [
+                                "count"
+                            ]
+                        },
+                        "showActionMenu": true,
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        },
+                        "applyConditionalFormatting": true
+                    },
+                    "type": "chart"
+                }
+            },
+            "RFP_Ballpark_Tier_AllICON": {
+                "broadcastFacet": true,
+                "groups": [],
+                "label": "RFP_Ballpark_Tier_AllICON",
+                "numbers": [],
+                "query": "q = load \"Opportunity_with_Service_Area_New_Service_Area_Group\"; q = filter q by (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,1,1], [9999,12,31])] &&  'Service_Line__c' != \"Resourcing & FSP Services (DOCS)\" && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([1900,1,1], [2018,12,31])] && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,4,1], [9999,12,31])] && 'Counted_for_DOCS_Proposal_Submitted__c' == \"true\"); q = filter q by 'Opportunity_ID__c.DOCS_Retail_Opportunity__c' == \"false\"; q = filter q by !('Opportunity_ID__c.RFP_Number_ICOBid__c' in [\"19-1887\", \"19-1888\", \"19-1910\"]); \nq = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day')\")}}; \nq = filter q by 'Opportunity_ID__c.AccountId.Name' != \"GPT Test Account\";\nq = filter q by 'Opportunity_ID__c.RecordTypeId.DeveloperName' in [\"Direct_To_Contract_Opportunity\", \"IFS_Opportunity\", \"RFP_Closed\", \"Sales_Opportunity\", \"ICO_Ops_Opportunity\", \"MM_RFP\"];\nq = filter q by 'Opportunity_ID__c.Sales_Adjustment_Opportuntiy__c' == \"false\";  q_RFP = filter q by 'Opportunity_ID__c.Ballpark_Costing_Excercise__c' == 0;  \nq_RFP = group q_RFP by ('Opportunity_ID__c.AccountId.Tier__c');\nq_RFP = foreach q_RFP generate 'Opportunity_ID__c.AccountId.Tier__c' as 'Tier', sum('Total_Value_of_Service_Area__c') as 'RFP'; q_Ballpark = filter q by 'Opportunity_ID__c.Ballpark_Costing_Excercise__c' == 1;  \nq_Ballpark = group q_Ballpark by ('Opportunity_ID__c.AccountId.Tier__c');\nq_Ballpark = foreach q_Ballpark generate 'Opportunity_ID__c.AccountId.Tier__c' as 'Tier', sum('Total_Value_of_Service_Area__c') as 'Ballpark'; \nq = group q by ('Opportunity_ID__c.AccountId.Tier__c');\nq = foreach q generate 'Opportunity_ID__c.AccountId.Tier__c' as 'Tier', sum('Total_Value_of_Service_Area__c') as 'Amount'; \np = load \"Non_IBD_Proposal_Submitted\"; \np = filter p by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day')\")}}; p_RFP = filter p by 'Ballpark' == 0; \np_RFP = group p_RFP by ('Tier');\np_RFP = foreach p_RFP generate 'Tier' as 'Tier',sum('Total_Value_of_Service_Area') as 'RFP'; p_Ballpark = filter p by 'Ballpark' == 1; \np_Ballpark = group p_Ballpark by ('Tier');\np_Ballpark = foreach p_Ballpark generate 'Tier' as 'Tier',coalesce(sum('Total_Value_of_Service_Area'),0) as 'Ballpark';  \np = group p by ('Tier');\np = foreach p generate 'Tier' as 'Tier',sum('Total_Value_of_Service_Area') as 'Amount';\nresult = union q,p,q_RFP,q_Ballpark,p_RFP,p_Ballpark;      TARGETS = load \"TARGETS\"; TARGETS = filter TARGETS by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Date_Year', 'Date_Month', 'Date_Day')\")}}; TARGETS = filter TARGETS by 'Target_Bucket' == \"Account Proposal Target\"; leaderboard = cogroup TARGETS by ('Target_Category') left, result by ('Tier'); leaderboard = foreach leaderboard generate coalesce(TARGETS.'Target_Category', result.'Tier') as 'Tier', coalesce(sum(result.'RFP'),0) as 'RFP', coalesce(sum(result.'Ballpark'),0) as 'Ballpark', coalesce(sum(result.'Amount'),0) as 'Total Submitted Amount', coalesce(sum(TARGETS.'Amount'),0) as 'Targets', coalesce(coalesce(sum(result.'Amount'),0)/coalesce(sum(TARGETS.'Amount'),0),0) as 'Submitted vs Target';  \nsummary = group leaderboard by ('Tier');\nsummary = foreach summary generate sum(sum('RFP')) over([..] partition by all) as 'RFP_total', sum(sum('Ballpark')) over([..] partition by all) as 'Ballpark_total', sum(sum('Total Submitted Amount')) over([..] partition by all) as 'Total Submitted Amount_total', sum(sum('Targets')) over([..] partition by all) as 'Targets_total', sum(sum('Total Submitted Amount')) over([..] partition by all)/sum(sum('Targets')) over([..] partition by all) as 'Submitted vs Target_total';\nsummary = limit summary 1;\nresult = limit result 10000;\nresult = union leaderboard, summary;",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "borderColor": "#e0e5ee",
+                        "borderWidth": 1,
+                        "cell": {
+                            "backgroundColor": "#ffffff",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "columnProperties": {},
+                        "columns": [],
+                        "customBulkActions": [],
+                        "header": {
+                            "backgroundColor": "#f4f6f9",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "innerMajorBorderColor": "#a8b7c7",
+                        "innerMinorBorderColor": "#e0e5ee",
+                        "maxColumnWidth": 300,
+                        "minColumnWidth": 40,
+                        "mode": "variable",
+                        "numberOfLines": 1,
+                        "showActionMenu": true,
+                        "verticalPadding": 8
+                    },
+                    "type": "table"
+                }
+            },
+            "RFP_OrigRegion_AllICON": {
+                "broadcastFacet": true,
+                "groups": [],
+                "label": "RFP_OrigRegion_AllICON",
+                "numbers": [],
+                "query": "q = load \"Opportunity_with_Service_Area_New_Service_Area_Group\"; q = filter q by (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,1,1], [9999,12,31])] &&  'Service_Line__c' != \"Resourcing & FSP Services (DOCS)\" && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([1900,1,1], [2018,12,31])] && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,4,1], [9999,12,31])] && 'Counted_for_DOCS_Proposal_Submitted__c' == \"true\"); q = filter q by 'Opportunity_ID__c.DOCS_Retail_Opportunity__c' == \"false\"; q = filter q by !('Opportunity_ID__c.RFP_Number_ICOBid__c' in [\"19-1887\", \"19-1888\", \"19-1910\"]); q = filter q by 'Opportunity_ID__c.Ballpark_Costing_Excercise__c' == 0; \nq = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day')\")}};\nq = filter q by 'Opportunity_ID__c.AccountId.Name' != \"GPT Test Account\";\nq = filter q by 'Opportunity_ID__c.RecordTypeId.DeveloperName' in [\"Direct_To_Contract_Opportunity\", \"IFS_Opportunity\", \"RFP_Closed\", \"Sales_Opportunity\", \"ICO_Ops_Opportunity\", \"MM_RFP\"];\nq = filter q by 'Opportunity_ID__c.Sales_Adjustment_Opportuntiy__c' == \"false\";\nq = group q by ('Opportunity_ID_c_Originating_Service_Area_c_text1');\nq = foreach q generate 'Opportunity_ID_c_Originating_Service_Area_c_text1' as 'Originating Region', unique('Opportunity_ID__c') as 'Number', sum('Total_Value_of_Service_Area__c') as 'Amount';\np = load \"Non_IBD_Proposal_Submitted\"; p = filter p by 'Ballpark' == 0; \np = filter p by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day')\")}};\np = group p by ('Originating_Region');\np = foreach p generate 'Originating_Region' as 'Originating Region', count() as 'Number', sum('Total_Value_of_Service_Area') as 'Amount';\nresult = union q,p;\nresult = order result by ('Originating Region' asc);\nsummary = group result by ('Originating Region');\nsummary = foreach summary generate sum(sum('Number')) over([..] partition by all) as 'Number_total', sum(sum('Amount')) over([..] partition by all) as 'Amount_total';\nsummary = limit summary 1;\nresult = limit result 10000;\nresult = union result, summary;",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "borderColor": "#e0e5ee",
+                        "borderWidth": 1,
+                        "cell": {
+                            "backgroundColor": "#ffffff",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "columnProperties": {},
+                        "columns": [],
+                        "customBulkActions": [],
+                        "header": {
+                            "backgroundColor": "#f4f6f9",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "innerMajorBorderColor": "#a8b7c7",
+                        "innerMinorBorderColor": "#e0e5ee",
+                        "maxColumnWidth": 300,
+                        "minColumnWidth": 40,
+                        "mode": "variable",
+                        "numberOfLines": 1,
+                        "showActionMenu": true,
+                        "verticalPadding": 8
+                    },
+                    "type": "table"
+                }
+            },
+            "RFP_Tier_AllICON": {
+                "broadcastFacet": true,
+                "groups": [],
+                "label": "RFP_Tier_AllICON",
+                "numbers": [],
+                "query": "q = load \"Opportunity_with_Service_Area_New_Service_Area_Group\"; q = filter q by (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,1,1], [9999,12,31])] &&  'Service_Line__c' != \"Resourcing & FSP Services (DOCS)\" && 'Reporting_Version__c' == 1 ) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([1900,1,1], [2018,12,31])] && 'Reporting_Version__c' == 1 ) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,4,1], [9999,12,31])] && 'Counted_for_DOCS_Proposal_Submitted__c' == \"true\"); q = filter q by 'Opportunity_ID__c.DOCS_Retail_Opportunity__c' == \"false\"; q = filter q by !('Opportunity_ID__c.RFP_Number_ICOBid__c' in [\"19-1887\", \"19-1888\", \"19-1910\"]); q = filter q by 'Opportunity_ID__c.Ballpark_Costing_Excercise__c' == 0; \nq = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day')\")}};\nq = filter q by 'Opportunity_ID__c.AccountId.Name' != \"GPT Test Account\";\nq = filter q by 'Opportunity_ID__c.RecordTypeId.DeveloperName' in [\"Direct_To_Contract_Opportunity\", \"IFS_Opportunity\", \"RFP_Closed\", \"Sales_Opportunity\", \"ICO_Ops_Opportunity\", \"MM_RFP\"];\nq = filter q by 'Opportunity_ID__c.Sales_Adjustment_Opportuntiy__c' == \"false\";\nq = group q by ('Opportunity_ID__c.AccountId.Tier__c');\nq = foreach q generate 'Opportunity_ID__c.AccountId.Tier__c' as 'Tier', unique('Opportunity_ID__c') as 'Number', sum('Total_Value_of_Service_Area__c') as 'Amount';\np = load \"Non_IBD_Proposal_Submitted\"; p = filter p by 'Ballpark' == 0; \np = filter p by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day')\")}};\np = group p by ('Tier');\np = foreach p generate 'Tier' as 'Tier', count() as 'Number', sum('Total_Value_of_Service_Area') as 'Amount';\nresult = union q,p;\nresult = order result by ('Tier' asc);\nsummary = group result by ('Tier');\nsummary = foreach summary generate sum(sum('Number')) over([..] partition by all) as 'Number_total', sum(sum('Amount')) over([..] partition by all) as 'Amount_total';\nsummary = limit summary 1;\nresult = limit result 10000;\nresult = union result, summary;",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "borderColor": "#e0e5ee",
+                        "borderWidth": 1,
+                        "cell": {
+                            "backgroundColor": "#ffffff",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "columnProperties": {},
+                        "columns": [],
+                        "customBulkActions": [],
+                        "header": {
+                            "backgroundColor": "#f4f6f9",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "innerMajorBorderColor": "#a8b7c7",
+                        "innerMinorBorderColor": "#e0e5ee",
+                        "maxColumnWidth": 300,
+                        "minColumnWidth": 40,
+                        "mode": "variable",
+                        "numberOfLines": 1,
+                        "showActionMenu": true,
+                        "verticalPadding": 8
+                    },
+                    "type": "table"
+                }
+            },
+            "step_relative_date": {
+                "broadcastFacet": false,
+                "columns": {},
+                "selectMode": "singlerequired",
+                "start": {
+                    "display": [
+                        "2020 (Default)"
+                    ]
+                },
+                "type": "staticflex",
+                "useGlobal": false,
+                "values": [
+                    {
+                        "display": "2020 (Default)",
+                        "compact_step_value": [
+                            1577836800000,
+                            1609372800000
+                        ],
+                        "saql_step_value": [
+                            [
+                                2020,
+                                1,
+                                1
+                            ],
+                            [
+                                2020,
+                                12,
+                                31
+                            ]
+                        ]
+                    },
+                    {
+                        "display": " 2020 Q1",
+                        "compact_step_value": [
+                            1577836800000,
+                            1585612800000
+                        ],
+                        "saql_step_value": [
+                            [
+                                2020,
+                                1,
+                                1
+                            ],
+                            [
+                                2020,
+                                3,
+                                31
+                            ]
+                        ]
+                    },
+                    {
+                        "display": " 2020 Q2",
+                        "compact_step_value": [
+                            1585699200000,
+                            1593475200000
+                        ],
+                        "saql_step_value": [
+                            [
+                                2020,
+                                4,
+                                1
+                            ],
+                            [
+                                2020,
+                                6,
+                                30
+                            ]
+                        ]
+                    },
+                    {
+                        "display": " 2020 Q3",
+                        "compact_step_value": [
+                            1593561600000,
+                            1601424000000
+                        ],
+                        "saql_step_value": [
+                            [
+                                2020,
+                                7,
+                                1
+                            ],
+                            [
+                                2020,
+                                9,
+                                30
+                            ]
+                        ]
+                    },
+                    {
+                        "display": " 2020 Q4",
+                        "compact_step_value": [
+                            1601510400000,
+                            1609372800000
+                        ],
+                        "saql_step_value": [
+                            [
+                                2020,
+                                10,
+                                1
+                            ],
+                            [
+                                2020,
+                                12,
+                                31
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "2019",
+                        "compact_step_value": [
+                            1546300800000,
+                            1577750400000
+                        ],
+                        "saql_step_value": [
+                            [
+                                2019,
+                                1,
+                                1
+                            ],
+                            [
+                                2019,
+                                12,
+                                31
+                            ]
+                        ]
+                    },
+                    {
+                        "display": " 2019 Q1",
+                        "compact_step_value": [
+                            1546300800000,
+                            1553990400000
+                        ],
+                        "saql_step_value": [
+                            [
+                                2019,
+                                1,
+                                1
+                            ],
+                            [
+                                2019,
+                                3,
+                                31
+                            ]
+                        ]
+                    },
+                    {
+                        "display": " 2019 Q2",
+                        "compact_step_value": [
+                            1554076800000,
+                            1561852800000
+                        ],
+                        "saql_step_value": [
+                            [
+                                2019,
+                                4,
+                                1
+                            ],
+                            [
+                                2019,
+                                6,
+                                30
+                            ]
+                        ]
+                    },
+                    {
+                        "display": " 2019 Q3",
+                        "compact_step_value": [
+                            1561939200000,
+                            1569801600000
+                        ],
+                        "saql_step_value": [
+                            [
+                                2019,
+                                7,
+                                1
+                            ],
+                            [
+                                2019,
+                                9,
+                                30
+                            ]
+                        ]
+                    },
+                    {
+                        "display": " 2019 Q4",
+                        "compact_step_value": [
+                            1569888000000,
+                            1577750400000
+                        ],
+                        "saql_step_value": [
+                            [
+                                2019,
+                                10,
+                                1
+                            ],
+                            [
+                                2019,
+                                12,
+                                31
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "2018",
+                        "compact_step_value": [
+                            1514764800000,
+                            1546214400000
+                        ],
+                        "saql_step_value": [
+                            [
+                                2018,
+                                1,
+                                1
+                            ],
+                            [
+                                2018,
+                                12,
+                                31
+                            ]
+                        ]
+                    },
+                    {
+                        "display": " 2018 Q1",
+                        "compact_step_value": [
+                            1514764800000,
+                            1522454400000
+                        ],
+                        "saql_step_value": [
+                            [
+                                2018,
+                                1,
+                                1
+                            ],
+                            [
+                                2018,
+                                3,
+                                31
+                            ]
+                        ]
+                    },
+                    {
+                        "display": " 2018 Q2",
+                        "compact_step_value": [
+                            1522540800000,
+                            1530316800000
+                        ],
+                        "saql_step_value": [
+                            [
+                                2018,
+                                4,
+                                1
+                            ],
+                            [
+                                2018,
+                                6,
+                                30
+                            ]
+                        ]
+                    },
+                    {
+                        "display": " 2018 Q3",
+                        "compact_step_value": [
+                            1530403200000,
+                            1538265600000
+                        ],
+                        "saql_step_value": [
+                            [
+                                2018,
+                                7,
+                                1
+                            ],
+                            [
+                                2018,
+                                9,
+                                30
+                            ]
+                        ]
+                    },
+                    {
+                        "display": " 2018 Q4",
+                        "compact_step_value": [
+                            1538352000000,
+                            1546214400000
+                        ],
+                        "saql_step_value": [
+                            [
+                                2018,
+                                10,
+                                1
+                            ],
+                            [
+                                2018,
+                                12,
+                                31
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "2017",
+                        "compact_step_value": [
+                            1483228800000,
+                            1514678400000
+                        ],
+                        "saql_step_value": [
+                            [
+                                2017,
+                                1,
+                                1
+                            ],
+                            [
+                                2017,
+                                12,
+                                31
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "2016",
+                        "compact_step_value": [
+                            1451606400000,
+                            1483142400000
+                        ],
+                        "saql_step_value": [
+                            [
+                                2016,
+                                1,
+                                1
+                            ],
+                            [
+                                2016,
+                                12,
+                                31
+                            ]
+                        ]
+                    }
+                ],
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                },
+                "numbers": [],
+                "strings": [],
+                "groups": []
+            },
+            "DetailsTable_withFPI": {
+                "broadcastFacet": true,
+                "groups": [],
+                "numbers": [],
+                "query": "q = load \"Opportunity_with_Service_Area_New_Service_Area_Group\"; q = filter q by (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,1,1], [9999,12,31])] &&  'Service_Line__c' != \"Resourcing & FSP Services (DOCS)\" && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([1900,1,1], [2018,12,31])] && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,4,1], [9999,12,31])] && 'Counted_for_DOCS_Proposal_Submitted__c' == \"true\"); q = filter q by 'Opportunity_ID__c.DOCS_Retail_Opportunity__c' == \"false\"; q = filter q by !('Opportunity_ID__c.RFP_Number_ICOBid__c' in [\"19-1887\", \"19-1888\", \"19-1910\"]); \nq = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day')\")}}; \nq = filter q by 'Opportunity_ID__c.AccountId.Name' != \"GPT Test Account\";\nq = filter q by 'Opportunity_ID__c.RecordTypeId.DeveloperName' in [\"Direct_To_Contract_Opportunity\", \"IFS_Opportunity\", \"RFP_Closed\", \"Sales_Opportunity\", \"ICO_Ops_Opportunity\", \"MM_RFP\"];\nq = filter q by 'Opportunity_ID__c.Sales_Adjustment_Opportuntiy__c' == \"false\";\nq = group q by ('Opportunity_ID__c.RFP_Number_ICOBid__c', 'Opportunity_ID__c.Name', 'Opportunity_ID__c.AccountId.Target_Account_Name__c', 'Opportunity_ID__c.AccountId.Name', 'Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day','Opportunity_ID_c_Originating_Service_Area_c_text_t', 'Opportunity_ID_c_Originating_Service_Area_c_text','Opportunity_ID_c_Originating_Service_Area_c_text1','Opportunity_ID__c.AccountId.Tier__c','Opportunity_ID__c.AccountId.Corporate_Market_Sec__c','Opportunity_ID__c.Therapeutic_Area__c', 'Opportunity_ID_c_Ballpark_Costing_Excercise_c_ra','Opportunity_ID__c.First_Patient_Enrolled_FPI__c_Year', 'Opportunity_ID__c.First_Patient_Enrolled_FPI__c_Month', 'Opportunity_ID__c.First_Patient_Enrolled_FPI__c_Day');\nq = foreach q generate 'Opportunity_ID__c.RFP_Number_ICOBid__c' as 'Opportunity Number', 'Opportunity_ID__c.Name' as 'Opportunity Name', 'Opportunity_ID__c.AccountId.Target_Account_Name__c' as 'Target Account Name', 'Opportunity_ID__c.AccountId.Name' as 'Account Name', 'Reporting_Proposal_Submitted_Date__c_Year' + \"~~~\" + 'Reporting_Proposal_Submitted_Date__c_Month' + \"~~~\" + 'Reporting_Proposal_Submitted_Date__c_Day' as 'Date_Year~~~Date_Month~~~Date_Day', 'Opportunity_ID_c_Originating_Service_Area_c_text_t' as 'Function', 'Opportunity_ID_c_Originating_Service_Area_c_text' as 'Originating Service Area', 'Opportunity_ID_c_Originating_Service_Area_c_text1' as 'Originating Region','Opportunity_ID__c.AccountId.Tier__c' as 'Tier','Opportunity_ID__c.AccountId.Corporate_Market_Sec__c' as 'Market Sector','Opportunity_ID__c.Therapeutic_Area__c' as 'Therapeutic Area', 'Opportunity_ID_c_Ballpark_Costing_Excercise_c_ra' as 'Ballpark', 'Opportunity_ID__c.First_Patient_Enrolled_FPI__c_Year' + \"~~~\" + 'Opportunity_ID__c.First_Patient_Enrolled_FPI__c_Month' + \"~~~\" + 'Opportunity_ID__c.First_Patient_Enrolled_FPI__c_Day' as 'FPI_Year~~~FPI_Month~~~FPI_Day',  unique('Opportunity_ID__c') as 'Number', sum('Total_Value_of_Service_Area__c') as 'Amount', max('Opportunity_ID__c.Total_Pass_Through_Costs__c') as 'Pass-through';\np = load \"Non_IBD_Proposal_Submitted\"; \np = filter p by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day')\")}}; \np = group p by ('Opportunity_Number', 'Opportunity_Name', 'Target_Account_Name', 'Account_Name', 'Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day', 'Originating_Service_Area_GSR_Service_Area', 'Originating_Service_Area', 'Originating_Region', 'Tier', 'Market_Sector', 'Therapeutic_Area', 'Ballpark_Group','FPI_Year','FPI_Month','FPI_Day');\np = foreach p generate  'Opportunity_Number' as 'Opportunity Number', 'Opportunity_Name' as 'Opportunity Name', 'Target_Account_Name' as 'Target Account Name', 'Account_Name' as 'Account Name', 'Proposal_Submitted_Date_All_ICON__c_Year' + \"~~~\" + 'Proposal_Submitted_Date_All_ICON__c_Month' + \"~~~\" + 'Proposal_Submitted_Date_All_ICON__c_Day' as 'Date_Year~~~Date_Month~~~Date_Day', 'Originating_Service_Area_GSR_Service_Area' as 'Function', 'Originating_Service_Area' as 'Originating Service Area', 'Originating_Region' as 'Originating Region', 'Tier' as 'Tier', 'Market_Sector' as 'Market Sector', 'Therapeutic_Area' as 'Therapeutic Area', 'Ballpark_Group' as 'Ballpark', 'FPI_Year' + \"~~~\" + 'FPI_Month' + \"~~~\" + 'FPI_Day' as 'FPI_Year~~~FPI_Month~~~FPI_Day', count() as 'Number', sum('Total_Value_of_Service_Area') as 'Amount', max('Pass_through') as 'Pass-through';\nresult = union q,p;",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "borderColor": "#e0e5ee",
+                        "borderWidth": 1,
+                        "cell": {
+                            "backgroundColor": "#ffffff",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "columnProperties": {},
+                        "columns": [],
+                        "customBulkActions": [],
+                        "header": {
+                            "backgroundColor": "#f4f6f9",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "innerMajorBorderColor": "#a8b7c7",
+                        "innerMinorBorderColor": "#e0e5ee",
+                        "maxColumnWidth": 300,
+                        "minColumnWidth": 40,
+                        "mode": "variable",
+                        "numberOfLines": 1,
+                        "showActionMenu": true,
+                        "verticalPadding": 8
+                    },
+                    "type": "table"
+                }
+            },
+            "Ballpark_OrigServiceArea_AllICON": {
+                "broadcastFacet": true,
+                "groups": [],
+                "label": "Ballpark_OrigServiceArea_AllICON",
+                "numbers": [],
+                "query": "q = load \"Opportunity_with_Service_Area_New_Service_Area_Group\"; q = filter q by (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,1,1], [9999,12,31])] &&  'Service_Line__c' != \"Resourcing & FSP Services (DOCS)\" && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([1900,1,1], [2018,12,31])] && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,4,1], [9999,12,31])] && 'Counted_for_DOCS_Proposal_Submitted__c' == \"true\"); q = filter q by 'Opportunity_ID__c.DOCS_Retail_Opportunity__c' == \"false\"; q = filter q by !('Opportunity_ID__c.RFP_Number_ICOBid__c' in [\"19-1887\", \"19-1888\", \"19-1910\"]); q = filter q by 'Opportunity_ID__c.Ballpark_Costing_Excercise__c' == 1; \nq = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day')\")}};\nq = filter q by 'Opportunity_ID__c.AccountId.Name' != \"GPT Test Account\";\nq = filter q by 'Opportunity_ID__c.RecordTypeId.DeveloperName' in [\"Direct_To_Contract_Opportunity\", \"IFS_Opportunity\", \"RFP_Closed\", \"Sales_Opportunity\", \"ICO_Ops_Opportunity\", \"MM_RFP\"];\nq = filter q by 'Opportunity_ID__c.Sales_Adjustment_Opportuntiy__c' == \"false\";\nq = group q by ('Opportunity_ID_c_Originating_Service_Area_c_text_t', 'Opportunity_ID_c_Originating_Service_Area_c_text');\nq = foreach q generate 'Opportunity_ID_c_Originating_Service_Area_c_text_t' as 'Function', 'Opportunity_ID_c_Originating_Service_Area_c_text' as 'Originating Service Area', unique('Opportunity_ID__c') as 'Number', sum('Total_Value_of_Service_Area__c') as 'Amount';\np = load \"Non_IBD_Proposal_Submitted\"; p = filter p by 'Ballpark' == 1; \np = filter p by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day')\")}};\np = group p by ('Originating_Service_Area_GSR_Service_Area', 'Originating_Service_Area');\np = foreach p generate 'Originating_Service_Area_GSR_Service_Area' as 'Function', 'Originating_Service_Area' as 'Originating Service Area', count() as 'Number', sum('Total_Value_of_Service_Area') as 'Amount';\nresult = union q,p;\nresult = order result by ('Function' asc, 'Originating Service Area' asc);\nsummary = group result by ('Function', 'Originating Service Area');\nsummary = foreach summary generate sum(sum('Number')) over([..] partition by all) as 'Number_total', sum(sum('Amount')) over([..] partition by all) as 'Amount_total';\nsummary = limit summary 1;\nresult = limit result 10000;\nresult = union result, summary;",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "borderColor": "#e0e5ee",
+                        "borderWidth": 1,
+                        "cell": {
+                            "backgroundColor": "#ffffff",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "columnProperties": {},
+                        "columns": [],
+                        "customBulkActions": [],
+                        "header": {
+                            "backgroundColor": "#f4f6f9",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "innerMajorBorderColor": "#a8b7c7",
+                        "innerMinorBorderColor": "#e0e5ee",
+                        "maxColumnWidth": 300,
+                        "minColumnWidth": 40,
+                        "mode": "variable",
+                        "numberOfLines": 1,
+                        "showActionMenu": true,
+                        "verticalPadding": 8
+                    },
+                    "type": "table"
+                }
+            },
+            "lens_1": {
+                "broadcastFacet": true,
+                "groups": [],
+                "numbers": [],
+                "query": "q = load \"Opportunity_with_Service_Area_New_Service_Area_Group\"; q = filter q by (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,1,1], [9999,12,31])] &&  'Service_Line__c' != \"Resourcing & FSP Services (DOCS)\" && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([1900,1,1], [2018,12,31])] && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,4,1], [9999,12,31])] && 'Counted_for_DOCS_Proposal_Submitted__c' == \"true\"); q = filter q by 'Opportunity_ID__c.DOCS_Retail_Opportunity__c' == \"false\"; q = filter q by !('Opportunity_ID__c.RFP_Number_ICOBid__c' in [\"19-1887\", \"19-1888\", \"19-1910\"]); \nq = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day')\")}};\nq = filter q by 'Opportunity_ID__c.AccountId.Name' != \"GPT Test Account\";\nq = filter q by 'Opportunity_ID__c.RecordTypeId.DeveloperName' in [\"Direct_To_Contract_Opportunity\", \"IFS_Opportunity\", \"RFP_Closed\", \"Sales_Opportunity\", \"ICO_Ops_Opportunity\", \"MM_RFP\"];\nq = filter q by 'Opportunity_ID__c.Sales_Adjustment_Opportuntiy__c' == \"false\";\nq = group q by all;\nq = foreach q generate sum('Total_Value_of_Service_Area__c') as 'Amount';\np = load \"Non_IBD_Proposal_Submitted\"; \np = filter p by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day')\")}}; \np = group p by all;\np = foreach p generate  sum('Total_Value_of_Service_Area') as 'Amount';\nresult = union q,p;",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "keepLabels",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "descOrder": false,
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "tooltip": {
+                            "showBinLabel": true,
+                            "measures": "",
+                            "showNullValues": true,
+                            "showPercentage": true,
+                            "showDimensions": true,
+                            "showMeasures": true,
+                            "customizeTooltip": false,
+                            "dimensions": ""
+                        },
+                        "visualizationType": "hbar",
+                        "title": {
+                            "fontSize": 14,
+                            "subtitleFontSize": 11,
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "size": [
+                                100,
+                                100
+                            ],
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "columnMap": {
+                            "trellis": [],
+                            "dimensionAxis": [],
+                            "plots": [
+                                "count"
+                            ]
+                        },
+                        "showActionMenu": true,
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        },
+                        "applyConditionalFormatting": true
+                    },
+                    "type": "chart"
+                }
+            },
+            "RFP_OrigServiceArea_AllICON": {
+                "broadcastFacet": true,
+                "groups": [],
+                "label": "Clone of RFP_OrigServiceArea",
+                "numbers": [],
+                "query": "q = load \"Opportunity_with_Service_Area_New_Service_Area_Group\"; q = filter q by (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,1,1], [9999,12,31])] &&  'Service_Line__c' != \"Resourcing & FSP Services (DOCS)\" && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([1900,1,1], [2018,12,31])] && 'Reporting_Version__c' == 1) || (date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day') in [dateRange([2019,4,1], [9999,12,31])] && 'Counted_for_DOCS_Proposal_Submitted__c' == \"true\"); q = filter q by 'Opportunity_ID__c.DOCS_Retail_Opportunity__c' == \"false\"; q = filter q by !('Opportunity_ID__c.RFP_Number_ICOBid__c' in [\"19-1887\", \"19-1888\", \"19-1910\"]); \nq = filter q by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Reporting_Proposal_Submitted_Date__c_Year', 'Reporting_Proposal_Submitted_Date__c_Month', 'Reporting_Proposal_Submitted_Date__c_Day')\")}};\nq = filter q by 'Opportunity_ID__c.AccountId.Name' != \"GPT Test Account\";\nq = filter q by 'Opportunity_ID__c.RecordTypeId.DeveloperName' in [\"Direct_To_Contract_Opportunity\", \"IFS_Opportunity\", \"RFP_Closed\", \"Sales_Opportunity\", \"ICO_Ops_Opportunity\", \"MM_RFP\"];\nq = filter q by 'Opportunity_ID__c.Sales_Adjustment_Opportuntiy__c' == \"false\"; q = filter q by 'Opportunity_ID__c.Ballpark_Costing_Excercise__c' == 0; \nq = group q by ('Opportunity_ID_c_Originating_Service_Area_c_text_t', 'Opportunity_ID_c_Originating_Service_Area_c_text');\nq = foreach q generate 'Opportunity_ID_c_Originating_Service_Area_c_text_t' as 'Function', 'Opportunity_ID_c_Originating_Service_Area_c_text' as 'Originating Service Area', unique('Opportunity_ID__c') as 'Number', sum('Total_Value_of_Service_Area__c') as 'Amount';\np = load \"Non_IBD_Proposal_Submitted\"; p = filter p by 'Ballpark' == 0; \np = filter p by {{cell(step_relative_date.selection, 0, \"saql_step_value\").asDateRange(\"date('Proposal_Submitted_Date_All_ICON__c_Year', 'Proposal_Submitted_Date_All_ICON__c_Month', 'Proposal_Submitted_Date_All_ICON__c_Day')\")}};\np = group p by ('Originating_Service_Area_GSR_Service_Area', 'Originating_Service_Area');\np = foreach p generate 'Originating_Service_Area_GSR_Service_Area' as 'Function', 'Originating_Service_Area' as 'Originating Service Area', count() as 'Number', sum('Total_Value_of_Service_Area') as 'Amount';\nresult = union q,p;\nresult = order result by ('Function' asc, 'Originating Service Area' asc);\nsummary = group result by ('Function', 'Originating Service Area');\nsummary = foreach summary generate sum(sum('Number')) over([..] partition by all) as 'Number_total', sum(sum('Amount')) over([..] partition by all) as 'Amount_total';\nsummary = limit summary 1;\nresult = limit result 10000;\nresult = union result, summary;",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "borderColor": "#e0e5ee",
+                        "borderWidth": 1,
+                        "cell": {
+                            "backgroundColor": "#ffffff",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "columnProperties": {},
+                        "columns": [],
+                        "customBulkActions": [],
+                        "header": {
+                            "backgroundColor": "#f4f6f9",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "innerMajorBorderColor": "#a8b7c7",
+                        "innerMinorBorderColor": "#e0e5ee",
+                        "maxColumnWidth": 300,
+                        "minColumnWidth": 40,
+                        "mode": "variable",
+                        "numberOfLines": 1,
+                        "showActionMenu": true,
+                        "verticalPadding": 8
+                    },
+                    "type": "table"
+                }
+            }
+        },
+        "widgetStyle": {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#E6ECF2",
+            "borderEdges": [],
+            "borderRadius": 0,
+            "borderWidth": 1
+        },
+        "widgets": {
+            "table_10": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "exploreLink": true,
+                    "header": {
+                        "backgroundColor": "rgb(18, 132, 116)",
+                        "fontColor": "#FFFFFF",
+                        "fontSize": 12
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "mode": "fittocontainer",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "step": "Ballpark_MarketSector_AllICON",
+                    "verticalPadding": 4,
+                    "evenRowColor": null,
+                    "oddRowColor": null
+                },
+                "type": "table"
+            },
+            "table_11": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "exploreLink": true,
+                    "header": {
+                        "backgroundColor": "rgb(18, 132, 116)",
+                        "fontColor": "#FFFFFF",
+                        "fontSize": 12
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "mode": "fittocontainer",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "step": "Ballpark_Tier_AllICON",
+                    "verticalPadding": 4,
+                    "evenRowColor": null,
+                    "oddRowColor": null
+                },
+                "type": "table"
+            },
+            "text_52": {
+                "parameters": {
+                    "fontSize": 12,
+                    "showActionMenu": true,
+                    "text": "Opportunities Received",
+                    "textAlignment": "left",
+                    "textColor": "#FFFFFF"
+                },
+                "type": "text"
+            },
+            "table_12": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "exploreLink": true,
+                    "header": {
+                        "backgroundColor": "rgb(18, 132, 116)",
+                        "fontColor": "#FFFFFF",
+                        "fontSize": 12
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "mode": "fittocontainer",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "step": "Ballpark_Tier1Accounts_AllICON",
+                    "verticalPadding": 4,
+                    "evenRowColor": null,
+                    "oddRowColor": null
+                },
+                "type": "table"
+            },
+            "table_13": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "exploreLink": true,
+                    "header": {
+                        "backgroundColor": "rgb(18, 132, 116)",
+                        "fontColor": "#FFFFFF",
+                        "fontSize": 12
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "mode": "fittocontainer",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "step": "Ballpark_TherapeuticArea_AllICON",
+                    "verticalPadding": 4,
+                    "evenRowColor": null,
+                    "oddRowColor": null
+                },
+                "type": "table"
+            },
+            "container_1": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "container_2": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "table_14": {
+                "parameters": {
+                    "borderColor": "#82c238",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "rgb(0, 0, 0)",
+                        "fontSize": 12
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "evenRowColor": "#f0f6ea",
+                    "exploreLink": true,
+                    "header": {
+                        "backgroundColor": "rgb(18, 132, 116)",
+                        "fontColor": "#ffffff",
+                        "fontSize": 12
+                    },
+                    "innerMajorBorderColor": "#5e981b",
+                    "innerMinorBorderColor": "#82c238",
+                    "mode": "fittocontainer",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "step": "RFP_Ballpark_Tier1&2_AllICON",
+                    "verticalPadding": 8,
+                    "oddRowColor": null
+                },
+                "type": "table"
+            },
+            "table_15": {
+                "parameters": {
+                    "borderColor": "#82c238",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "rgb(0, 0, 0)",
+                        "fontSize": 12
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "evenRowColor": "#f0f6ea",
+                    "exploreLink": true,
+                    "header": {
+                        "backgroundColor": "rgb(18, 132, 116)",
+                        "fontColor": "#ffffff",
+                        "fontSize": 12
+                    },
+                    "innerMajorBorderColor": "#5e981b",
+                    "innerMinorBorderColor": "#82c238",
+                    "mode": "fittocontainer",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "step": "RFP_Ballpark_Tier_AllICON",
+                    "verticalPadding": 8,
+                    "oddRowColor": null
+                },
+                "type": "table"
+            },
+            "table_16": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 10
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "exploreLink": true,
+                    "header": {
+                        "backgroundColor": "#f4f6f9",
+                        "fontColor": "#16325c",
+                        "fontSize": 12
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "mode": "fittocontainer",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "step": "DetailsTable_withFPI",
+                    "verticalPadding": 4,
+                    "evenRowColor": null,
+                    "oddRowColor": null
+                },
+                "type": "table"
+            },
+            "text_3": {
+                "parameters": {
+                    "fontSize": 24,
+                    "showActionMenu": true,
+                    "text": "RFP+Ballpark Submitted V1 by Tier ",
+                    "textAlignment": "center",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "text_2": {
+                "parameters": {
+                    "fontSize": 12,
+                    "showActionMenu": true,
+                    "text": "NOTE: Data Tech = IMI, IRT and IDEA Service Area",
+                    "textAlignment": "left",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "text_5": {
+                "parameters": {
+                    "fontSize": 16,
+                    "showActionMenu": true,
+                    "text": "Details table with FPI (Only includes records which FPI Date is populated)",
+                    "textAlignment": "center",
+                    "textColor": "#00B531"
+                },
+                "type": "text"
+            },
+            "text_4": {
+                "parameters": {
+                    "fontSize": 24,
+                    "showActionMenu": true,
+                    "text": "RFP+Ballpark Submitted V1_Tier 1, 2 Accounts ",
+                    "textAlignment": "center",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "text_6": {
+                "parameters": {
+                    "fontSize": 16,
+                    "showActionMenu": true,
+                    "text": "Details table",
+                    "textAlignment": "center",
+                    "textColor": "#00B531"
+                },
+                "type": "text"
+            },
+            "text_8": {
+                "parameters": {
+                    "fontSize": 24,
+                    "showActionMenu": true,
+                    "text": "Version 1 RFPs",
+                    "textAlignment": "center",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "navigation_4": {
+                "parameters": {
+                    "fontSize": 16,
+                    "selectedTab": {
+                        "backgroundColor": "#00B531",
+                        "borderColor": "#00B531",
+                        "borderEdges": [],
+                        "borderWidth": 2,
+                        "textColor": "#FFFFFF"
+                    },
+                    "tabCount": 5,
+                    "textColor": "rgb(0, 71, 80)"
+                },
+                "type": "navigation"
+            },
+            "navigation_3": {
+                "parameters": {
+                    "fontSize": 16,
+                    "selectedTab": {
+                        "backgroundColor": "#00B531",
+                        "borderColor": "#FFFFFF",
+                        "borderEdges": [],
+                        "borderWidth": 4,
+                        "textColor": "#FFFFFF"
+                    },
+                    "tabCount": 5,
+                    "textColor": "#091A3E"
+                },
+                "type": "navigation"
+            },
+            "text_1": {
+                "parameters": {
+                    "fontSize": 24,
+                    "showActionMenu": true,
+                    "text": "Version 1 Ballparks",
+                    "textAlignment": "center",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "navigation_2": {
+                "parameters": {
+                    "fontSize": 16,
+                    "selectedTab": {
+                        "backgroundColor": "#00B531",
+                        "borderColor": "#FFFFFF",
+                        "borderEdges": [],
+                        "borderWidth": 4,
+                        "textColor": "#FFFFFF"
+                    },
+                    "tabCount": 5,
+                    "textColor": "#091A3E"
+                },
+                "type": "navigation"
+            },
+            "text_20": {
+                "parameters": {
+                    "fontSize": 24,
+                    "showActionMenu": true,
+                    "text": "Version 1 RFPs and Ballparks",
+                    "textAlignment": "center",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "navigation_1": {
+                "parameters": {
+                    "fontSize": 16,
+                    "selectedTab": {
+                        "backgroundColor": "#00B531",
+                        "borderColor": "#00B531",
+                        "borderEdges": [],
+                        "borderWidth": 2,
+                        "textColor": "#FFFFFF"
+                    },
+                    "tabCount": 3,
+                    "textColor": "rgb(0, 71, 80)"
+                },
+                "type": "navigation"
+            },
+            "table_1": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 10
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "exploreLink": true,
+                    "header": {
+                        "backgroundColor": "#f4f6f9",
+                        "fontColor": "#16325c",
+                        "fontSize": 12
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "mode": "fittocontainer",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "step": "DetailsTable",
+                    "verticalPadding": 4,
+                    "evenRowColor": null,
+                    "oddRowColor": null
+                },
+                "type": "table"
+            },
+            "table_2": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "exploreLink": true,
+                    "header": {
+                        "backgroundColor": "rgb(18, 132, 116)",
+                        "fontColor": "#FFFFFF",
+                        "fontSize": 12
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "mode": "fittocontainer",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "step": "RFP_OrigRegion_AllICON",
+                    "verticalPadding": 4,
+                    "evenRowColor": null,
+                    "oddRowColor": null
+                },
+                "type": "table"
+            },
+            "table_3": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "exploreLink": true,
+                    "header": {
+                        "backgroundColor": "rgb(18, 132, 116)",
+                        "fontColor": "#FFFFFF",
+                        "fontSize": 12
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "mode": "fittocontainer",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "step": "RFP_OrigServiceArea_AllICON",
+                    "verticalPadding": 4,
+                    "evenRowColor": null,
+                    "oddRowColor": null
+                },
+                "type": "table"
+            },
+            "table_4": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "exploreLink": true,
+                    "header": {
+                        "backgroundColor": "rgb(18, 132, 116)",
+                        "fontColor": "#FFFFFF",
+                        "fontSize": 12
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "mode": "fittocontainer",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "step": "RFP_MarketSector_AllICON",
+                    "verticalPadding": 4,
+                    "evenRowColor": null,
+                    "oddRowColor": null
+                },
+                "type": "table"
+            },
+            "pillbox_2": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "fontSize": 14,
+                    "selectedTab": {
+                        "backgroundColor": "#006667",
+                        "borderColor": "#C6D3E1",
+                        "borderEdges": [
+                            "all"
+                        ],
+                        "borderWidth": 1,
+                        "textColor": "#FFFFFF"
+                    },
+                    "showActionMenu": true,
+                    "step": "step_relative_date",
+                    "textColor": "#006667"
+                },
+                "type": "pillbox"
+            },
+            "table_5": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "exploreLink": true,
+                    "header": {
+                        "backgroundColor": "rgb(18, 132, 116)",
+                        "fontColor": "#FFFFFF",
+                        "fontSize": 12
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "mode": "fittocontainer",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "step": "RFP_Tier_AllICON",
+                    "verticalPadding": 4,
+                    "evenRowColor": null,
+                    "oddRowColor": null
+                },
+                "type": "table"
+            },
+            "pillbox_1": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "fontSize": 14,
+                    "selectedTab": {
+                        "backgroundColor": "#006667",
+                        "borderColor": "#C6D3E1",
+                        "borderEdges": [
+                            "all"
+                        ],
+                        "borderWidth": 1,
+                        "textColor": "#FFFFFF"
+                    },
+                    "showActionMenu": true,
+                    "step": "step_relative_date",
+                    "textColor": "#006667"
+                },
+                "type": "pillbox"
+            },
+            "table_6": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "exploreLink": true,
+                    "header": {
+                        "backgroundColor": "rgb(18, 132, 116)",
+                        "fontColor": "#FFFFFF",
+                        "fontSize": 12
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "mode": "fittocontainer",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "step": "RFP_Tier1Accounts_AllICON",
+                    "verticalPadding": 4,
+                    "evenRowColor": null,
+                    "oddRowColor": null
+                },
+                "type": "table"
+            },
+            "table_7": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "exploreLink": true,
+                    "header": {
+                        "backgroundColor": "rgb(18, 132, 116)",
+                        "fontColor": "#FFFFFF",
+                        "fontSize": 12
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "mode": "fittocontainer",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "step": "RFP_TherapeuticArea_AllICON",
+                    "verticalPadding": 4,
+                    "evenRowColor": null,
+                    "oddRowColor": null
+                },
+                "type": "table"
+            },
+            "pillbox_4": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "fontSize": 14,
+                    "selectedTab": {
+                        "backgroundColor": "#006667",
+                        "borderColor": "#C6D3E1",
+                        "borderEdges": [
+                            "all"
+                        ],
+                        "borderWidth": 1,
+                        "textColor": "#FFFFFF"
+                    },
+                    "showActionMenu": true,
+                    "step": "step_relative_date",
+                    "textColor": "#006667"
+                },
+                "type": "pillbox"
+            },
+            "pillbox_3": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "fontSize": 14,
+                    "selectedTab": {
+                        "backgroundColor": "#006667",
+                        "borderColor": "#C6D3E1",
+                        "borderEdges": [
+                            "all"
+                        ],
+                        "borderWidth": 1,
+                        "textColor": "#FFFFFF"
+                    },
+                    "showActionMenu": true,
+                    "step": "step_relative_date",
+                    "textColor": "#006667"
+                },
+                "type": "pillbox"
+            },
+            "table_8": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "exploreLink": true,
+                    "header": {
+                        "backgroundColor": "rgb(18, 132, 116)",
+                        "fontColor": "#FFFFFF",
+                        "fontSize": 12
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "mode": "fittocontainer",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "step": "Ballpark_OrigServiceArea_AllICON",
+                    "verticalPadding": 4,
+                    "evenRowColor": null,
+                    "oddRowColor": null
+                },
+                "type": "table"
+            },
+            "table_9": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "exploreLink": true,
+                    "header": {
+                        "backgroundColor": "rgb(18, 132, 116)",
+                        "fontColor": "#FFFFFF",
+                        "fontSize": 12
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "mode": "fittocontainer",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "step": "Ballpark_OrigRegion_AllICON",
+                    "verticalPadding": 4,
+                    "evenRowColor": null,
+                    "oddRowColor": null
+                },
+                "type": "table"
+            }
+        }
+    },
+    "datasets": [
+        {
+            "id": "0FbD0000000R6PQKA0",
+            "label": "Opportunity with Service Area_New Service Area Group",
+            "name": "Opportunity_with_Service_Area_New_Service_Area_Group",
+            "url": "/services/data/v48.0/wave/datasets/0FbD0000000R6PQKA0"
+        },
+        {
+            "id": "0FbD0000000XZBtKAO",
+            "label": "TARGETS",
+            "name": "TARGETS",
+            "url": "/services/data/v48.0/wave/datasets/0FbD0000000XZBtKAO"
+        },
+        {
+            "id": "0FbD0000000XZoqKAG",
+            "label": "Non IBD Proposal Submitted",
+            "name": "Non_IBD_Proposal_Submitted",
+            "url": "/services/data/v48.0/wave/datasets/0FbD0000000XZoqKAG"
+        }
+    ]
+}
