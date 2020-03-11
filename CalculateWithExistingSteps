@@ -1,0 +1,33 @@
+"CalculateNetBusinessWins": {
+                "broadcastFacet": true,
+                "datasets": [
+                    {
+                        "id": "0FbD0000000R6PLKA0",
+                        "label": "Change Order with Service Area with Service New SA/Srvc Group",
+                        "name": "Change_Order_with_Service_Area_with_Service_New_SA_Srvc_Group",
+                        "url": "/services/data/v48.0/wave/datasets/0FbD0000000R6PLKA0"
+                    }
+                ],
+                "isGlobal": false,
+                "query": {
+                    "measures": [
+                        [
+                            "sum",
+                            "NetBusinessWins"
+                        ]
+                    ],
+                    "pigql": "q = load \"Change_Orders_with_CO_Service_Areas_with_Services\";\nq = group q by all;\nq = foreach q generate {{coalesce(cell(CalculateGrossBusinessWins.result, 0, \"sum_GrossBusinessWins\"),0).asString()}}+{{coalesce(cell(CalculateCancels.result, 0, \"sum_Cancels\"),0).asString()}} as 'sum_NetBusinessWins';\n",
+                    "filters": []
+                },
+                "receiveFacetSource": {
+                    "mode": "none",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "options": {},
+                    "visualizationType": "hbar"
+                }
+            },
