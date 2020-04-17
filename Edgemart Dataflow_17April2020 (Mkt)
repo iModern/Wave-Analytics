@@ -1,0 +1,1445 @@
+{
+  "augment_Campaign": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_Account",
+      "left_key": [
+        "ConvertedOpportunityId.CampaignId"
+      ],
+      "right_select": [
+        "Service_Area__c",
+        "StartDate",
+        "Status",
+        "Type",
+        "RecordTypeId",
+        "ActualCost",
+        "AmountAllOpportunities",
+        "AmountWonOpportunities",
+        "CampaignMemberRecordTypeId",
+        "CreatedDate",
+        "EndDate",
+        "HierarchyActualCost",
+        "HierarchyAmountAllOpportunities",
+        "HierarchyAmountWonOpportunities",
+        "HierarchyNumberOfContacts",
+        "HierarchyNumberOfConvertedLeads",
+        "HierarchyNumberOfLeads",
+        "HierarchyNumberOfOpportunities",
+        "HierarchyNumberOfWonOpportunities",
+        "Id",
+        "IsActive",
+        "Market_Sector__c",
+        "Name",
+        "NumberOfContacts",
+        "NumberOfConvertedLeads",
+        "NumberOfLeads",
+        "NumberOfOpportunities",
+        "NumberOfWonOpportunities"
+      ],
+      "right": "sfdcDigest_Campaign",
+      "relationship": "ConvertedOpportunityId.CampaignId",
+      "operation": "LookupSingleValue"
+    }
+  },
+  "register_AccountsCustom_1": {
+    "action": "sfdcRegister",
+    "parameters": {
+      "name": "AccountsCustom",
+      "alias": "AccountsCustom",
+      "source": "augment_Account_User_1"
+    }
+  },
+  "sfdcDigest_RecordType": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "Name"
+        },
+        {
+          "name": "Id"
+        }
+      ],
+      "object": "RecordType"
+    }
+  },
+  "sfdcDigest_Campaign_3": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "StartDate"
+        },
+        {
+          "name": "Name"
+        },
+        {
+          "name": "Department_Owner__c"
+        },
+        {
+          "name": "Type"
+        },
+        {
+          "name": "RecordTypeId"
+        },
+        {
+          "name": "Id"
+        }
+      ],
+      "object": "Campaign"
+    }
+  },
+  "sfdcDigest_User_1": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "Name"
+        },
+        {
+          "name": "Id"
+        }
+      ],
+      "object": "User"
+    }
+  },
+  "sfdcDigest_Indication__c": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "Name"
+        },
+        {
+          "name": "Id"
+        }
+      ],
+      "object": "Indication__c"
+    }
+  },
+  "augment_CampaignMember_Lead_0": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "sfdcDigest_CampaignMember_0",
+      "left_key": [
+        "LeadId"
+      ],
+      "right_select": [
+        "Company",
+        "IsConverted",
+        "ConvertedDate",
+        "Country",
+        "Name",
+        "Inside_Sales_Qualified_Date__c",
+        "Job_Level__c",
+        "Id",
+        "Status",
+        "CreatedById",
+        "CreatedDate"
+      ],
+      "right": "sfdcDigest_Lead_0",
+      "relationship": "LeadId",
+      "operation": "LookupSingleValue"
+    }
+  },
+  "sfdcDigest_User_0": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "Id"
+        },
+        {
+          "name": "Name"
+        }
+      ],
+      "object": "User"
+    }
+  },
+  "edgemart_account": {
+    "action": "edgemart",
+    "parameters": {
+      "alias": "AccountsCustom"
+    }
+  },
+  "sfdcDigest_Campaign_0": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "IsActive"
+        },
+        {
+          "name": "Id"
+        },
+        {
+          "name": "CreatedDate"
+        },
+        {
+          "name": "Name"
+        },
+        {
+          "name": "Department_Owner__c"
+        },
+        {
+          "name": "StartDate"
+        },
+        {
+          "name": "Type"
+        },
+        {
+          "name": "RecordTypeId"
+        }
+      ],
+      "object": "Campaign"
+    }
+  },
+  "augment_Indication__c": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_Campaign",
+      "left_key": [
+        "ConvertedOpportunityId.Indication_1__c"
+      ],
+      "right_select": [
+        "Name"
+      ],
+      "right": "sfdcDigest_Indication__c",
+      "relationship": "ConvertedOpportunityId.Indication_1__c"
+    }
+  },
+  "register_Leads with converted opportunities": {
+    "action": "sfdcRegister",
+    "parameters": {
+      "name": "Leads with converted opportunities",
+      "alias": "Leads_with_converted_opportunities",
+      "source": "augment_RecordType_2"
+    }
+  },
+  "augment_Account_User_1": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "sfdcDigest_Account_1",
+      "left_key": [
+        "Global_Account_Director__c"
+      ],
+      "right_select": [
+        "Name"
+      ],
+      "right": "sfdcDigest_User_1",
+      "relationship": "Global_Account_Director__c"
+    }
+  },
+  "augment_Account": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_Opportunity",
+      "left_key": [
+        "ConvertedOpportunityId.AccountId"
+      ],
+      "right_select": [
+        "Client_Number__c",
+        "Client_Type__c",
+        "Corporate_Market_Sec__c",
+        "Global_Account_Director__c",
+        "Id",
+        "Market_Sector__c",
+        "Name",
+        "Strategic_Alliance_VP__c",
+        "Target_Account_Name__c",
+        "Tier__c"
+      ],
+      "right": "sfdcDigest_Account",
+      "relationship": "ConvertedOpportunityId.AccountId",
+      "operation": "LookupSingleValue"
+    }
+  },
+  "sfdcDigest_CampaignMember_0": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "LeadId"
+        },
+        {
+          "name": "CampaignId"
+        },
+        {
+          "name": "Id"
+        }
+      ],
+      "object": "CampaignMember"
+    }
+  },
+  "augment_Campaign_0": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_User_0",
+      "left_key": [
+        "CampaignId"
+      ],
+      "right_select": [
+        "IsActive",
+        "Id",
+        "CreatedDate",
+        "Name",
+        "Department_Owner__c",
+        "StartDate",
+        "Type",
+        "RecordTypeId"
+      ],
+      "right": "sfdcDigest_Campaign_0",
+      "relationship": "CampaignId"
+    }
+  },
+  "sfdcDigest_Lead_0": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "Company"
+        },
+        {
+          "name": "IsConverted"
+        },
+        {
+          "name": "ConvertedDate"
+        },
+        {
+          "name": "Country"
+        },
+        {
+          "name": "Name"
+        },
+        {
+          "name": "Inside_Sales_Qualified_Date__c"
+        },
+        {
+          "name": "Job_Level__c"
+        },
+        {
+          "name": "Id"
+        },
+        {
+          "name": "Status"
+        },
+        {
+          "name": "CreatedById"
+        },
+        {
+          "name": "CreatedDate"
+        }
+      ],
+      "object": "Lead"
+    }
+  },
+  "augment_Profile": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_User_3",
+      "left_key": [
+        "CreatedById.ProfileId"
+      ],
+      "right_select": [
+        "Name"
+      ],
+      "right": "sfdcDigest_Profile",
+      "relationship": "CreatedById.ProfileId"
+    }
+  },
+  "sfdcDigest_Group": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "Id"
+        },
+        {
+          "name": "Name"
+        },
+        {
+          "name": "Type"
+        }
+      ],
+      "object": "Group"
+    }
+  },
+  "register_RFI with Opportunity with Campaign_3": {
+    "action": "sfdcRegister",
+    "parameters": {
+      "name": "RFI with Opportunity with Campaign",
+      "alias": "RFI_with_Opportunity_with_Campaign",
+      "source": "augment_RecordType_3"
+    }
+  },
+  "edgemart_pardotprospects": {
+    "action": "edgemart",
+    "parameters": {
+      "alias": "PardotProspect"
+    }
+  },
+  "sfdcDigest_Opportunity_3": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "AccountId"
+        },
+        {
+          "name": "Name"
+        },
+        {
+          "name": "RFP_Number_ICOBid__c"
+        },
+        {
+          "name": "StageName"
+        },
+        {
+          "name": "Originating_Service_Area__c"
+        },
+        {
+          "name": "CampaignId"
+        },
+        {
+          "name": "Id"
+        }
+      ],
+      "object": "Opportunity"
+    }
+  },
+  "augment_Opportunity": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_Contact",
+      "left_key": [
+        "ConvertedOpportunityId"
+      ],
+      "right_select": [
+        "RFP_Number_ICOBid__c",
+        "Record_Type_Name__c",
+        "AccountId",
+        "CampaignId",
+        "Indication_1__c",
+        "Originating_Account_Executive__c",
+        "RecordTypeId",
+        "Originating_Service_Area__c",
+        "Phase__c",
+        "Therapeutic_Area__c",
+        "StageName",
+        "Name",
+        "Body_Systems__c",
+        "Therapeutic_Alignment__c",
+        "Ballpark_Costing_Excercise__c",
+        "CreatedDate",
+        "Id",
+        "CloseDate",
+        "RFP_Received_Date__c",
+        "Latest_Version__c",
+        "Primary_Scenario__c",
+        "Probability",
+        "Reason_Won__c",
+        "Reason_For_Loss__c",
+        "Add_to_Potentials__c",
+        "Add_to_Roadmap__c",
+        "Amount",
+        "Sales_Adjustment_Opportuntiy__c",
+        "No_Proposal_Submitted__c",
+        "Number_of_Service_Areas__c",
+        "Functional_Solutions_Opportunity__c",
+        "Proposal_Exists__c",
+        "RFI_Exists__c"
+      ],
+      "right": "sfdcDigest_Opportunity",
+      "relationship": "ConvertedOpportunityId"
+    }
+  },
+  "augment_RFI__c_Opportunity_3": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "sfdcDigest_RFI__c_3",
+      "left_key": [
+        "Related_Opportunity__c"
+      ],
+      "right_select": [
+        "AccountId",
+        "Name",
+        "RFP_Number_ICOBid__c",
+        "StageName",
+        "Originating_Service_Area__c",
+        "CampaignId"
+      ],
+      "right": "sfdcDigest_Opportunity_3",
+      "relationship": "Related_Opportunity__c"
+    }
+  },
+  "augment_Campaign_3": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_Account_3",
+      "left_key": [
+        "Related_Opportunity__c.CampaignId"
+      ],
+      "right_select": [
+        "StartDate",
+        "Name",
+        "Department_Owner__c",
+        "Type",
+        "RecordTypeId"
+      ],
+      "right": "sfdcDigest_Campaign_3",
+      "relationship": "Related_Opportunity__c.CampaignId"
+    }
+  },
+  "sfdcDigest_Campaign": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "Name"
+        },
+        {
+          "name": "RecordTypeId"
+        },
+        {
+          "name": "CampaignMemberRecordTypeId"
+        },
+        {
+          "name": "IsActive"
+        },
+        {
+          "name": "ActualCost"
+        },
+        {
+          "name": "HierarchyActualCost"
+        },
+        {
+          "name": "Id"
+        },
+        {
+          "name": "NumberOfConvertedLeads"
+        },
+        {
+          "name": "NumberOfContacts"
+        },
+        {
+          "name": "HierarchyNumberOfContacts"
+        },
+        {
+          "name": "HierarchyNumberOfConvertedLeads"
+        },
+        {
+          "name": "CreatedDate"
+        },
+        {
+          "name": "EndDate"
+        },
+        {
+          "name": "NumberOfLeads"
+        },
+        {
+          "name": "HierarchyNumberOfLeads"
+        },
+        {
+          "name": "Market_Sector__c"
+        },
+        {
+          "name": "NumberOfOpportunities"
+        },
+        {
+          "name": "HierarchyNumberOfOpportunities"
+        },
+        {
+          "name": "Service_Area__c"
+        },
+        {
+          "name": "StartDate"
+        },
+        {
+          "name": "Status"
+        },
+        {
+          "name": "Type"
+        },
+        {
+          "name": "AmountAllOpportunities"
+        },
+        {
+          "name": "HierarchyAmountAllOpportunities"
+        },
+        {
+          "name": "AmountWonOpportunities"
+        },
+        {
+          "name": "HierarchyAmountWonOpportunities"
+        },
+        {
+          "name": "NumberOfWonOpportunities"
+        },
+        {
+          "name": "HierarchyNumberOfWonOpportunities"
+        }
+      ],
+      "object": "Campaign"
+    }
+  },
+  "augment_Campaign_1": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_RecordType_1",
+      "left_key": [
+        "Result_of_Campaign__c"
+      ],
+      "right_select": [
+        "Name",
+        "RecordTypeId",
+        "CampaignMemberRecordTypeId",
+        "IsActive",
+        "ActualCost",
+        "HierarchyActualCost",
+        "Id",
+        "NumberOfConvertedLeads",
+        "NumberOfContacts",
+        "HierarchyNumberOfContacts",
+        "HierarchyNumberOfConvertedLeads",
+        "CreatedDate",
+        "EndDate",
+        "NumberOfLeads",
+        "HierarchyNumberOfLeads",
+        "Market_Sector__c",
+        "NumberOfOpportunities",
+        "HierarchyNumberOfOpportunities",
+        "Service_Area__c",
+        "StartDate",
+        "Status",
+        "Type",
+        "AmountAllOpportunities",
+        "HierarchyAmountAllOpportunities",
+        "AmountWonOpportunities",
+        "HierarchyAmountWonOpportunities",
+        "NumberOfWonOpportunities",
+        "HierarchyNumberOfWonOpportunities"
+      ],
+      "right": "sfdcDigest_Campaign",
+      "relationship": "Result_of_Campaign__c",
+      "operation": "LookupSingleValue"
+    }
+  },
+  "register_Leads with Campaigns_0": {
+    "action": "sfdcRegister",
+    "parameters": {
+      "name": "Leads with Campaigns",
+      "alias": "Leads_with_Campaigns",
+      "source": "augment_RecordType_0"
+    }
+  },
+  "sfdcDigest_User": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "Name"
+        },
+        {
+          "name": "Service_Area__c"
+        },
+        {
+          "name": "Region__c"
+        },
+        {
+          "name": "Sub_Region__c"
+        },
+        {
+          "name": "Sr_Director__c"
+        },
+        {
+          "name": "IsActive"
+        },
+        {
+          "name": "ProfileId"
+        },
+        {
+          "name": "Id"
+        }
+      ],
+      "object": "User"
+    }
+  },
+  "sfdcDigest_Account": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "Id"
+        },
+        {
+          "name": "Name"
+        },
+        {
+          "name": "Target_Account_Name__c"
+        },
+        {
+          "name": "Tier__c"
+        },
+        {
+          "name": "Corporate_Market_Sec__c"
+        },
+        {
+          "name": "Market_Sector__c"
+        },
+        {
+          "name": "Client_Number__c"
+        },
+        {
+          "name": "Client_Type__c"
+        },
+        {
+          "name": "Strategic_Alliance_VP__c"
+        },
+        {
+          "name": "Global_Account_Director__c"
+        }
+      ],
+      "object": "Account"
+    }
+  },
+  "augment_User": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_Lead_Account",
+      "left_key": [
+        "ConvertedAccountId.Global_Account_Director__c"
+      ],
+      "right_select": [
+        "Name"
+      ],
+      "right": "sfdcDigest_User",
+      "relationship": "ConvertedAccountId.Global_Account_Director__c"
+    }
+  },
+  "sfdcDigest_Contact": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "Name"
+        },
+        {
+          "name": "Id"
+        },
+        {
+          "name": "Contact_Type__c"
+        },
+        {
+          "name": "Continental_Region__c"
+        },
+        {
+          "name": "CreatedDate"
+        },
+        {
+          "name": "LeadSource"
+        },
+        {
+          "name": "pi__grade__c"
+        },
+        {
+          "name": "pi__score__c"
+        }
+      ],
+      "object": "Contact"
+    }
+  },
+  "sfdcDigest_Account_3": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "Name"
+        },
+        {
+          "name": "Tier__c"
+        },
+        {
+          "name": "Corporate_Market_Sec__c"
+        },
+        {
+          "name": "Client_Type__c"
+        },
+        {
+          "name": "Id"
+        }
+      ],
+      "object": "Account"
+    }
+  },
+  "sfdcDigest_RecordType_0": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "Name"
+        },
+        {
+          "name": "Id"
+        }
+      ],
+      "object": "RecordType"
+    }
+  },
+  "sfdcDigest_RecordType_3": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "Name"
+        },
+        {
+          "name": "Id"
+        }
+      ],
+      "object": "RecordType"
+    }
+  },
+  "sfdcDigest_RFI__c_3": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "Related_Opportunity__c"
+        },
+        {
+          "name": "CreatedDate"
+        },
+        {
+          "name": "RFI_Received_Date__c"
+        },
+        {
+          "name": "RFI_Submitted_Date__c"
+        },
+        {
+          "name": "RFI_Type__c"
+        }
+      ],
+      "object": "RFI__c"
+    }
+  },
+  "augment_Group": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_User_4",
+      "left_key": [
+        "OwnerId"
+      ],
+      "right_select": [
+        "Id",
+        "Name",
+        "Type"
+      ],
+      "right": "sfdcDigest_Group",
+      "relationship": "OwnerId__Group"
+    }
+  },
+  "sfdcDigest_Account_1": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "Id"
+        },
+        {
+          "name": "Name"
+        },
+        {
+          "name": "Target_Account_Name__c"
+        },
+        {
+          "name": "Tier__c"
+        },
+        {
+          "name": "Client_Number__c"
+        },
+        {
+          "name": "Corporate_Market_Sec__c"
+        },
+        {
+          "name": "COUNTRY_LOOKUP_UPPER_CASE__c"
+        },
+        {
+          "name": "BillingState"
+        },
+        {
+          "name": "Strategic_Alliance_VP__c"
+        },
+        {
+          "name": "Client_Type__c"
+        },
+        {
+          "name": "Market_Sector__c"
+        },
+        {
+          "name": "Global_Account_Director__c"
+        },
+        {
+          "name": "ICON_Executive_Spon__c"
+        }
+      ],
+      "object": "Account"
+    }
+  },
+  "augment_User_4": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_Profile",
+      "left_key": [
+        "CreatedById.Sr_Director__c"
+      ],
+      "right_select": [
+        "Name",
+        "Service_Area__c",
+        "Region__c",
+        "Sub_Region__c",
+        "IsActive"
+      ],
+      "right": "sfdcDigest_User",
+      "relationship": "CreatedById.Sr_Director__c"
+    }
+  },
+  "augment_User_5": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_Group",
+      "left_key": [
+        "OwnerId"
+      ],
+      "right_select": [
+        "Name",
+        "Service_Area__c",
+        "Region__c",
+        "Sub_Region__c",
+        "ProfileId",
+        "Sr_Director__c",
+        "IsActive"
+      ],
+      "right": "sfdcDigest_User",
+      "relationship": "OwnerId__User"
+    }
+  },
+  "augment_Account_3": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_RFI__c_Opportunity_3",
+      "left_key": [
+        "Related_Opportunity__c.AccountId"
+      ],
+      "right_select": [
+        "Name",
+        "Tier__c",
+        "Corporate_Market_Sec__c",
+        "Client_Type__c"
+      ],
+      "right": "sfdcDigest_Account_3",
+      "relationship": "Related_Opportunity__c.AccountId"
+    }
+  },
+  "augment_User_2": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_User_1",
+      "left_key": [
+        "ConvertedOpportunityId.Originating_Account_Executive__c.Sr_Director__c"
+      ],
+      "right_select": [
+        "Name",
+        "Service_Area__c",
+        "Region__c",
+        "Sub_Region__c",
+        "IsActive"
+      ],
+      "right": "sfdcDigest_User",
+      "relationship": "ConvertedOpportunityId.Originating_Account_Executive__c.Sr_Director__c"
+    }
+  },
+  "augment_User_3": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_RecordType",
+      "left_key": [
+        "CreatedById"
+      ],
+      "right_select": [
+        "Name",
+        "ProfileId",
+        "Sr_Director__c",
+        "IsActive",
+        "Region__c",
+        "Sub_Region__c",
+        "Service_Area__c"
+      ],
+      "right": "sfdcDigest_User",
+      "relationship": "CreatedById"
+    }
+  },
+  "augment_User_0": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_CampaignMember_Lead_0",
+      "left_key": [
+        "LeadId.CreatedById"
+      ],
+      "right_select": [
+        "Name"
+      ],
+      "right": "sfdcDigest_User_0",
+      "relationship": "LeadId.CreatedById"
+    }
+  },
+  "augment_User_1": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_Indication__c",
+      "left_key": [
+        "ConvertedOpportunityId.Originating_Account_Executive__c"
+      ],
+      "right_select": [
+        "Name",
+        "Service_Area__c",
+        "Region__c",
+        "Sub_Region__c",
+        "Sr_Director__c",
+        "IsActive"
+      ],
+      "right": "sfdcDigest_User",
+      "relationship": "ConvertedOpportunityId.Originating_Account_Executive__c"
+    }
+  },
+  "sfdcDigest_Lead": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "ConvertedAccountId"
+        },
+        {
+          "name": "ConvertedContactId"
+        },
+        {
+          "name": "ConvertedOpportunityId"
+        },
+        {
+          "name": "CreatedById"
+        },
+        {
+          "name": "OwnerId"
+        },
+        {
+          "name": "RecordTypeId"
+        },
+        {
+          "name": "Result_of_Campaign__c"
+        },
+        {
+          "name": "Company"
+        },
+        {
+          "name": "Continental_Region__c"
+        },
+        {
+          "name": "IsConverted"
+        },
+        {
+          "name": "ConvertedDate"
+        },
+        {
+          "name": "Country"
+        },
+        {
+          "name": "CreatedDate"
+        },
+        {
+          "name": "Disqualified_Reason__c"
+        },
+        {
+          "name": "Name"
+        },
+        {
+          "name": "Id"
+        },
+        {
+          "name": "LeadSource"
+        },
+        {
+          "name": "Lead_Taken_By__c"
+        },
+        {
+          "name": "pi__score__c"
+        },
+        {
+          "name": "pi__grade__c"
+        },
+        {
+          "name": "Prospect_Tier__c"
+        },
+        {
+          "name": "Prospect_Type__c"
+        },
+        {
+          "name": "Rating"
+        },
+        {
+          "name": "Status"
+        },
+        {
+          "name": "Inside_Sales_Qualified_Date__c"
+        }
+      ],
+      "object": "Lead"
+    }
+  },
+  "augment_RecordType_3": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_Campaign_3",
+      "left_key": [
+        "Related_Opportunity__c.CampaignId.RecordTypeId"
+      ],
+      "right_select": [
+        "Name"
+      ],
+      "right": "sfdcDigest_RecordType_3",
+      "relationship": "Related_Opportunity__c.CampaignId.RecordTypeId"
+    }
+  },
+  "augment_RecordType_2": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_Campaign_1",
+      "left_key": [
+        "Result_of_Campaign__c.RecordTypeId"
+      ],
+      "right_select": [
+        "Name"
+      ],
+      "right": "sfdcDigest_RecordType",
+      "relationship": "Result_of_Campaign__c.RecordTypeId"
+    }
+  },
+  "augment_RecordType_1": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_User_5",
+      "left_key": [
+        "RecordTypeId"
+      ],
+      "right_select": [
+        "Name"
+      ],
+      "right": "sfdcDigest_RecordType",
+      "relationship": "RecordTypeId",
+      "operation": "LookupSingleValue"
+    }
+  },
+  "augment_crmaccounts_pardotprospects": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Name"
+      ],
+      "left": "edgemart_pardotprospects",
+      "left_key": [
+        "company"
+      ],
+      "right_select": [
+        "Corporate_Market_Sec__c",
+        "Name",
+        "Tier__c",
+        "Target_Account_Name__c",
+        "Global_Account_Director__c.Name",
+        "Strategic_Alliance_VP__c"
+      ],
+      "right": "edgemart_account",
+      "relationship": "Name",
+      "operation": "LookupSingleValue"
+    }
+  },
+  "augment_RecordType_0": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_Campaign_0",
+      "left_key": [
+        "CampaignId.RecordTypeId"
+      ],
+      "right_select": [
+        "Name"
+      ],
+      "right": "sfdcDigest_RecordType_0",
+      "relationship": "CampaignId.RecordTypeId"
+    }
+  },
+  "augment_Lead_Account": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "sfdcDigest_Lead",
+      "left_key": [
+        "ConvertedAccountId"
+      ],
+      "right_select": [
+        "Id",
+        "Name",
+        "Target_Account_Name__c",
+        "Tier__c",
+        "Corporate_Market_Sec__c",
+        "Market_Sector__c",
+        "Client_Number__c",
+        "Client_Type__c",
+        "Strategic_Alliance_VP__c",
+        "Global_Account_Director__c"
+      ],
+      "right": "sfdcDigest_Account",
+      "relationship": "ConvertedAccountId"
+    }
+  },
+  "sfdcDigest_Opportunity": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "RFP_Number_ICOBid__c"
+        },
+        {
+          "name": "Record_Type_Name__c"
+        },
+        {
+          "name": "AccountId"
+        },
+        {
+          "name": "CampaignId"
+        },
+        {
+          "name": "Indication_1__c"
+        },
+        {
+          "name": "Originating_Account_Executive__c"
+        },
+        {
+          "name": "RecordTypeId"
+        },
+        {
+          "name": "Originating_Service_Area__c"
+        },
+        {
+          "name": "Phase__c"
+        },
+        {
+          "name": "Therapeutic_Area__c"
+        },
+        {
+          "name": "StageName"
+        },
+        {
+          "name": "Name"
+        },
+        {
+          "name": "Body_Systems__c"
+        },
+        {
+          "name": "Therapeutic_Alignment__c"
+        },
+        {
+          "name": "Ballpark_Costing_Excercise__c"
+        },
+        {
+          "name": "CreatedDate"
+        },
+        {
+          "name": "Id"
+        },
+        {
+          "name": "CloseDate"
+        },
+        {
+          "name": "RFP_Received_Date__c"
+        },
+        {
+          "name": "Latest_Version__c"
+        },
+        {
+          "name": "Primary_Scenario__c"
+        },
+        {
+          "name": "Probability"
+        },
+        {
+          "name": "Reason_Won__c"
+        },
+        {
+          "name": "Reason_For_Loss__c"
+        },
+        {
+          "name": "Add_to_Potentials__c"
+        },
+        {
+          "name": "Add_to_Roadmap__c"
+        },
+        {
+          "name": "Amount"
+        },
+        {
+          "name": "Sales_Adjustment_Opportuntiy__c"
+        },
+        {
+          "name": "No_Proposal_Submitted__c"
+        },
+        {
+          "name": "Number_of_Service_Areas__c"
+        },
+        {
+          "name": "Functional_Solutions_Opportunity__c"
+        },
+        {
+          "name": "Proposal_Exists__c"
+        },
+        {
+          "name": "RFI_Exists__c"
+        }
+      ],
+      "object": "Opportunity"
+    }
+  },
+  "augment_Contact": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_User",
+      "left_key": [
+        "ConvertedContactId"
+      ],
+      "right_select": [
+        "Name",
+        "Id",
+        "Contact_Type__c",
+        "Continental_Region__c",
+        "CreatedDate",
+        "LeadSource",
+        "pi__grade__c",
+        "pi__score__c"
+      ],
+      "right": "sfdcDigest_Contact",
+      "relationship": "ConvertedContactId"
+    }
+  },
+  "augment_RecordType": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "augment_User_2",
+      "left_key": [
+        "ConvertedOpportunityId.RecordTypeId"
+      ],
+      "right_select": [
+        "Name"
+      ],
+      "right": "sfdcDigest_RecordType",
+      "relationship": "ConvertedOpportunityId.RecordTypeId"
+    }
+  },
+  "sfdcDigest_Profile": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "Name"
+        },
+        {
+          "name": "Id"
+        }
+      ],
+      "object": "Profile"
+    }
+  },
+  "register_pardotprospectbyaccountbytier": {
+    "action": "sfdcRegister",
+    "parameters": {
+      "name": "PardotProspects_CRMAccounts",
+      "alias": "PardotProspects_CRMAccounts",
+      "source": "augment_crmaccounts_pardotprospects"
+    }
+  }
+}
