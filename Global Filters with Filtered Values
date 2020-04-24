@@ -1,0 +1,19 @@
+"filters": [
+            {
+                "dataset": {
+                    "id": "0FbD0000000R6OwKAK",
+                    "name": "Contracts_with_Service_Areas_with_Services_New_SA_Service_Groups",
+                    "url": "/services/data/v48.0/wave/datasets/0FbD0000000R6OwKAK"
+                },
+                "dependent": true,
+                "fields": [
+                    "Contract_Service_Line__c.Service_Area_Account_Executive__c.Service_Area__c"
+                ],
+                "label": "Service Area AE Service Area",
+                "locked": true,
+                "operator": "in",
+                "value": [
+                    "ICL",
+                    "MMD"
+                ]
+            }
