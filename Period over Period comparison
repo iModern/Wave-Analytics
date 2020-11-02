@@ -1,0 +1,1589 @@
+"steps": {
+
+            "Number_of_Transactio_CYTDvsPYTD_MonthlyTotal": {
+
+                "broadcastFacet": true,
+
+                "groups": [],
+
+                "label": "salestrending_chart_salestransactionrunningtotalvariance_CYYTD+LYYTD",
+
+                "numbers": [],
+
+                "query": "q = load \"Transactions_for_COO_report\";\nq_E = filter q by date('Data_Input_In_Cloas__c_Year', 'Data_Input_In_Cloas__c_Month', 'Data_Input_In_Cloas__c_Day') in [dateRange({{cell(PeriodsOverPeriods_Last4Years.result,0,\"prior_min_date\").asString()}}, {{cell(PeriodsOverPeriods_Last4Years.result,0,\"prior_max_date\").asString()}})]; \nq_G = filter q by date('Data_Input_In_Cloas__c_Year', 'Data_Input_In_Cloas__c_Month', 'Data_Input_In_Cloas__c_Day') in [dateRange({{cell(PeriodsOverPeriods_Last4Years.result,0,\"current_min_date\").asString()}}, {{cell(PeriodsOverPeriods_Last4Years.result,0,\"current_max_date\").asString()}})]; \nresult = group q_E by 'Data_Input_In_Cloas__c_Month' full, q_G by 'Data_Input_In_Cloas__c_Month'; \nresult = foreach result generate coalesce(q_E.'Data_Input_In_Cloas__c_Month', q_G.'Data_Input_In_Cloas__c_Month') as 'Data_Input_In_Cloas__c_Month', count(q_E) as 'E', count(q_G) as 'G';\nresult = group result by 'Data_Input_In_Cloas__c_Month';\nresult = foreach result generate 'Data_Input_In_Cloas__c_Month', sum(G) as 'Current Year', sum(E) as 'Last Year';\nresult = order result by ('Data_Input_In_Cloas__c_Month' asc);\nresult = limit result 2000;",
+
+                "receiveFacetSource": {
+
+                    "mode": "all",
+
+                    "steps": []
+
+                },
+
+                "selectMode": "single",
+
+                "strings": [],
+
+                "type": "saql",
+
+                "useGlobal": true,
+
+                "visualizationParameters": {
+
+                    "parameters": {
+
+                        "autoFitMode": "keepLabels",
+
+                        "showValues": true,
+
+                        "bins": {
+
+                            "breakpoints": {
+
+                                "high": 100,
+
+                                "low": 0
+
+                            },
+
+                            "bands": {
+
+                                "high": {
+
+                                    "color": "#008000",
+
+                                    "label": ""
+
+                                },
+
+                                "low": {
+
+                                    "color": "#B22222",
+
+                                    "label": ""
+
+                                },
+
+                                "medium": {
+
+                                    "color": "#ffa500",
+
+                                    "label": ""
+
+                                }
+
+                            }
+
+                        },
+
+                        "legend": {
+
+                            "descOrder": false,
+
+                            "showHeader": true,
+
+                            "show": false,
+
+                            "customSize": "auto",
+
+                            "position": "right-top",
+
+                            "inside": false
+
+                        },
+
+                        "axisMode": "multi",
+
+                        "tooltip": {
+
+                            "showBinLabel": true,
+
+                            "measures": "",
+
+                            "showNullValues": true,
+
+                            "showPercentage": true,
+
+                            "showDimensions": true,
+
+                            "showMeasures": true,
+
+                            "customizeTooltip": false,
+
+                            "dimensions": ""
+
+                        },
+
+                        "visualizationType": "vbar",
+
+                        "title": {
+
+                            "fontSize": 24,
+
+                            "subtitleFontSize": 14,
+
+                            "label": "Sales - Number of Transactions",
+
+                            "align": "center",
+
+                            "subtitleLabel": "Variance Running Total (YTD vs. Avg Same Period Last 3 Years)"
+
+                        },
+
+                        "binValues": false,
+
+                        "trellis": {
+
+                            "flipLabels": false,
+
+                            "showGridLines": true,
+
+                            "size": [
+
+                                100,
+
+                                100
+
+                            ],
+
+                            "enable": false,
+
+                            "type": "x",
+
+                            "chartsPerLine": 4
+
+                        },
+
+                        "columnMap": {
+
+                            "trellis": [],
+
+                            "dimensionAxis": [
+
+                                "Data_Input_In_Cloas__c_Month"
+
+                            ],
+
+                            "plots": [
+
+                                "Last Year",
+
+                                "Current Year"
+
+                            ]
+
+                        },
+
+                        "showActionMenu": true,
+
+                        "measureAxis2": {
+
+                            "sqrtScale": false,
+
+                            "showTitle": true,
+
+                            "showAxis": true,
+
+                            "title": "",
+
+                            "customDomain": {
+
+                                "showDomain": false
+
+                            }
+
+                        },
+
+                        "measureAxis1": {
+
+                            "sqrtScale": false,
+
+                            "showTitle": false,
+
+                            "showAxis": true,
+
+                            "title": "",
+
+                            "customDomain": {
+
+                                "showDomain": false
+
+                            }
+
+                        },
+
+                        "theme": "wave",
+
+                        "dimensionAxis": {
+
+                            "showTitle": true,
+
+                            "customSize": "auto",
+
+                            "showAxis": true,
+
+                            "title": "",
+
+                            "icons": {
+
+                                "useIcons": false,
+
+                                "iconProps": {
+
+                                    "fit": "cover",
+
+                                    "column": "",
+
+                                    "type": "round"
+
+                                }
+
+                            }
+
+                        },
+
+                        "applyConditionalFormatting": true
+
+                    },
+
+                    "type": "chart"
+
+                }
+
+            },
+
+            "PeriodsOverPeriods_Last4Years": {
+
+                "broadcastFacet": true,
+
+                "groups": [],
+
+                "label": "PeriodsOverPeriods_Last4Years",
+
+                "numbers": [],
+
+                "query": "q = load \"Transactions_for_COO_report\";\nq = filter q by date('Data_Input_In_Cloas__c_Year', 'Data_Input_In_Cloas__c_Month', 'Data_Input_In_Cloas__c_Day') in [\"current year\"..\"current day\"];\nq = group q by all;\nq = foreach q generate number_to_string(date_diff(\"day\", toDate(min('Data_Input_In_Cloas__c_sec_epoch')), toDate(max('Data_Input_In_Cloas__c_sec_epoch'))) + 1,\"#\")  as 'diff_month', toDate(max('Data_Input_In_Cloas__c_sec_epoch')) as 'current_max_date', toDate(min('Data_Input_In_Cloas__c_sec_epoch')) as 'current_min_date';\nq = foreach q generate 'diff_month', 'current_max_date', 'current_min_date', toDate (date_to_epoch('current_min_date') - (365 * 86400)) as 'prior_min_date', toDate (date_to_epoch('current_max_date') -(365 * 86400)) as prior_max_date, toDate (date_to_epoch('current_min_date') - (365*2 * 86400)) as 'prior2_min_date', toDate (date_to_epoch('current_max_date') -(365*2 * 86400)) as prior2_max_date, toDate (date_to_epoch('current_min_date') - (365*3 * 86400)) as 'prior3_min_date', toDate (date_to_epoch('current_max_date') -(365*3 * 86400)) as prior3_max_date;\nq = foreach q generate 'diff_month', date_to_string('current_max_date',\"[yyyy,MM,dd]\") as 'current_max_date', date_to_string('current_min_date',\"[yyyy,MM,dd]\") as 'current_min_date', date_to_string('prior_min_date',\"[yyyy,MM,dd]\") as 'prior_min_date', date_to_string('prior_max_date',\"[yyyy,MM,dd]\") as 'prior_max_date', date_to_string('prior2_min_date',\"[yyyy,MM,dd]\") as 'prior2_min_date', date_to_string('prior2_max_date',\"[yyyy,MM,dd]\") as 'prior2_max_date', date_to_string('prior3_min_date',\"[yyyy,MM,dd]\") as 'prior3_min_date', date_to_string('prior3_max_date',\"[yyyy,MM,dd]\") as 'prior3_max_date';\nq = limit q 100000;",
+
+                "receiveFacetSource": {
+
+                    "mode": "all",
+
+                    "steps": []
+
+                },
+
+                "selectMode": "single",
+
+                "strings": [],
+
+                "type": "saql",
+
+                "useGlobal": true,
+
+                "visualizationParameters": {
+
+                    "parameters": {
+
+                        "autoFitMode": "keepLabels",
+
+                        "showValues": true,
+
+                        "bins": {
+
+                            "breakpoints": {
+
+                                "high": 100,
+
+                                "low": 0
+
+                            },
+
+                            "bands": {
+
+                                "high": {
+
+                                    "color": "#008000",
+
+                                    "label": ""
+
+                                },
+
+                                "low": {
+
+                                    "color": "#B22222",
+
+                                    "label": ""
+
+                                },
+
+                                "medium": {
+
+                                    "color": "#ffa500",
+
+                                    "label": ""
+
+                                }
+
+                            }
+
+                        },
+
+                        "legend": {
+
+                            "descOrder": false,
+
+                            "showHeader": true,
+
+                            "show": true,
+
+                            "customSize": "auto",
+
+                            "position": "right-top",
+
+                            "inside": false
+
+                        },
+
+                        "axisMode": "multi",
+
+                        "tooltip": {
+
+                            "showBinLabel": true,
+
+                            "measures": "",
+
+                            "showNullValues": true,
+
+                            "showPercentage": true,
+
+                            "showDimensions": true,
+
+                            "showMeasures": true,
+
+                            "customizeTooltip": false,
+
+                            "dimensions": ""
+
+                        },
+
+                        "visualizationType": "hbar",
+
+                        "title": {
+
+                            "fontSize": 14,
+
+                            "subtitleFontSize": 11,
+
+                            "label": "",
+
+                            "align": "center",
+
+                            "subtitleLabel": ""
+
+                        },
+
+                        "binValues": false,
+
+                        "trellis": {
+
+                            "flipLabels": false,
+
+                            "showGridLines": true,
+
+                            "size": [
+
+                                100,
+
+                                100
+
+                            ],
+
+                            "enable": false,
+
+                            "type": "x",
+
+                            "chartsPerLine": 4
+
+                        },
+
+                        "showActionMenu": true,
+
+                        "measureAxis2": {
+
+                            "sqrtScale": false,
+
+                            "showTitle": true,
+
+                            "showAxis": true,
+
+                            "title": "",
+
+                            "customDomain": {
+
+                                "showDomain": false
+
+                            }
+
+                        },
+
+                        "measureAxis1": {
+
+                            "sqrtScale": false,
+
+                            "showTitle": true,
+
+                            "showAxis": true,
+
+                            "title": "",
+
+                            "customDomain": {
+
+                                "showDomain": false
+
+                            }
+
+                        },
+
+                        "theme": "wave",
+
+                        "dimensionAxis": {
+
+                            "showTitle": true,
+
+                            "customSize": "auto",
+
+                            "showAxis": true,
+
+                            "title": "",
+
+                            "icons": {
+
+                                "useIcons": false,
+
+                                "iconProps": {
+
+                                    "fit": "cover",
+
+                                    "column": "",
+
+                                    "type": "round"
+
+                                }
+
+                            }
+
+                        },
+
+                        "applyConditionalFormatting": true
+
+                    },
+
+                    "type": "chart"
+
+                }
+
+            },
+
+            "Number_of_Transactio_CYTDvsPYTD_Perc": {
+
+                "broadcastFacet": true,
+
+                "groups": [],
+
+                "label": "salestrending_chart_salestransactionrunningtotalvariance_CYYTD+LYYTD",
+
+                "numbers": [],
+
+                "query": "q = load \"Transactions_for_COO_report\";\nq_E = filter q by date('Data_Input_In_Cloas__c_Year', 'Data_Input_In_Cloas__c_Month', 'Data_Input_In_Cloas__c_Day') in [dateRange({{cell(PeriodsOverPeriods_Last4Years.result,0,\"prior_min_date\").asString()}}, {{cell(PeriodsOverPeriods_Last4Years.result,0,\"prior_max_date\").asString()}})]; \nq_G = filter q by date('Data_Input_In_Cloas__c_Year', 'Data_Input_In_Cloas__c_Month', 'Data_Input_In_Cloas__c_Day') in [dateRange({{cell(PeriodsOverPeriods_Last4Years.result,0,\"current_min_date\").asString()}}, {{cell(PeriodsOverPeriods_Last4Years.result,0,\"current_max_date\").asString()}})]; \nresult = group q_E by 'Data_Input_In_Cloas__c_Month' full, q_G by 'Data_Input_In_Cloas__c_Month'; \nresult = foreach result generate coalesce(q_E.'Data_Input_In_Cloas__c_Month', q_G.'Data_Input_In_Cloas__c_Month') as 'Data_Input_In_Cloas__c_Month', count(q_E) as 'E', count(q_G) as 'G';\nresult = group result by 'Data_Input_In_Cloas__c_Month';\nresult = foreach result generate 'Data_Input_In_Cloas__c_Month', first(E) as 'E', first(G) as 'G', sum(sum(E)) over([..0] partition by 'all' order by 'Data_Input_In_Cloas__c_Month' asc) as 'F', sum(sum(G)) over ([..0] partition by all order by ('Data_Input_In_Cloas__c_Month')) as 'H', ((sum(sum(G)) over ([..0] partition by all order by ('Data_Input_In_Cloas__c_Month')))-(sum(sum(E)) over ([..0] partition by all order by ('Data_Input_In_Cloas__c_Month'))))/((sum(sum(E)) over ([..0] partition by all order by ('Data_Input_In_Cloas__c_Month')))) as 'Current Year vs. Last Year';\nresult = order result by ('Data_Input_In_Cloas__c_Month' asc);\nresult = limit result 2000;",
+
+                "receiveFacetSource": {
+
+                    "mode": "all",
+
+                    "steps": []
+
+                },
+
+                "selectMode": "single",
+
+                "strings": [],
+
+                "type": "saql",
+
+                "useGlobal": true,
+
+                "visualizationParameters": {
+
+                    "parameters": {
+
+                        "autoFitMode": "keepLabels",
+
+                        "showValues": true,
+
+                        "bins": {
+
+                            "breakpoints": {
+
+                                "high": 100,
+
+                                "low": 0
+
+                            },
+
+                            "bands": {
+
+                                "high": {
+
+                                    "color": "#008000",
+
+                                    "label": ""
+
+                                },
+
+                                "low": {
+
+                                    "color": "#B22222",
+
+                                    "label": ""
+
+                                },
+
+                                "medium": {
+
+                                    "color": "#ffa500",
+
+                                    "label": ""
+
+                                }
+
+                            }
+
+                        },
+
+                        "legend": {
+
+                            "descOrder": false,
+
+                            "showHeader": true,
+
+                            "show": false,
+
+                            "customSize": "auto",
+
+                            "position": "right-top",
+
+                            "inside": false
+
+                        },
+
+                        "axisMode": "multi",
+
+                        "tooltip": {
+
+                            "showBinLabel": true,
+
+                            "measures": "",
+
+                            "showNullValues": true,
+
+                            "showPercentage": true,
+
+                            "showDimensions": true,
+
+                            "showMeasures": true,
+
+                            "customizeTooltip": false,
+
+                            "dimensions": ""
+
+                        },
+
+                        "visualizationType": "vbar",
+
+                        "title": {
+
+                            "fontSize": 24,
+
+                            "subtitleFontSize": 14,
+
+                            "label": "Sales - Number of Transactions",
+
+                            "align": "center",
+
+                            "subtitleLabel": "Variance Running Total (YTD vs. Avg Same Period Last 3 Years)"
+
+                        },
+
+                        "binValues": false,
+
+                        "trellis": {
+
+                            "flipLabels": false,
+
+                            "showGridLines": true,
+
+                            "size": [
+
+                                100,
+
+                                100
+
+                            ],
+
+                            "enable": false,
+
+                            "type": "x",
+
+                            "chartsPerLine": 4
+
+                        },
+
+                        "columnMap": {
+
+                            "trellis": [],
+
+                            "dimensionAxis": [
+
+                                "Data_Input_In_Cloas__c_Month"
+
+                            ],
+
+                            "plots": [
+
+                                "Current Year vs. Last Year"
+
+                            ]
+
+                        },
+
+                        "showActionMenu": true,
+
+                        "measureAxis2": {
+
+                            "sqrtScale": false,
+
+                            "showTitle": true,
+
+                            "showAxis": true,
+
+                            "title": "",
+
+                            "customDomain": {
+
+                                "showDomain": false
+
+                            }
+
+                        },
+
+                        "measureAxis1": {
+
+                            "sqrtScale": false,
+
+                            "showTitle": false,
+
+                            "showAxis": true,
+
+                            "title": "",
+
+                            "customDomain": {
+
+                                "showDomain": false
+
+                            }
+
+                        },
+
+                        "theme": "wave",
+
+                        "dimensionAxis": {
+
+                            "showTitle": true,
+
+                            "customSize": "auto",
+
+                            "showAxis": true,
+
+                            "title": "",
+
+                            "icons": {
+
+                                "useIcons": false,
+
+                                "iconProps": {
+
+                                    "fit": "cover",
+
+                                    "column": "",
+
+                                    "type": "round"
+
+                                }
+
+                            }
+
+                        },
+
+                        "applyConditionalFormatting": true
+
+                    },
+
+                    "type": "chart"
+
+                }
+
+            },
+
+            "Picklist_TransactionType": {
+
+                "broadcastFacet": true,
+
+                "datasets": [
+
+                    {
+
+                        "id": "0Fb1o000000SEdKCAW",
+
+                        "label": "Transactions for COO report",
+
+                        "name": "Transactions_for_COO_report",
+
+                        "url": "/services/data/v50.0/wave/datasets/0Fb1o000000SEdKCAW"
+
+                    }
+
+                ],
+
+                "isGlobal": false,
+
+                "query": {
+
+                    "measures": [
+
+                        [
+
+                            "count",
+
+                            "*"
+
+                        ]
+
+                    ],
+
+                    "groups": [
+
+                        "Transaction_Type__c"
+
+                    ]
+
+                },
+
+                "receiveFacetSource": {
+
+                    "mode": "all",
+
+                    "steps": []
+
+                },
+
+                "selectMode": "multi",
+
+                "type": "aggregateflex",
+
+                "useGlobal": true,
+
+                "visualizationParameters": {
+
+                    "options": {}
+
+                }
+
+            },
+
+            "Number_of_Transactio_CYTDvsPYTD_VarianceMonthlyTotal": {
+
+                "broadcastFacet": true,
+
+                "groups": [],
+
+                "label": "salestrending_chart_salestransactionrunningtotalvariance_CYYTD+LYYTD",
+
+                "numbers": [],
+
+                "query": "q = load \"Transactions_for_COO_report\";\nq_E = filter q by date('Data_Input_In_Cloas__c_Year', 'Data_Input_In_Cloas__c_Month', 'Data_Input_In_Cloas__c_Day') in [dateRange({{cell(PeriodsOverPeriods_Last4Years.result,0,\"prior_min_date\").asString()}}, {{cell(PeriodsOverPeriods_Last4Years.result,0,\"prior_max_date\").asString()}})]; \nq_G = filter q by date('Data_Input_In_Cloas__c_Year', 'Data_Input_In_Cloas__c_Month', 'Data_Input_In_Cloas__c_Day') in [dateRange({{cell(PeriodsOverPeriods_Last4Years.result,0,\"current_min_date\").asString()}}, {{cell(PeriodsOverPeriods_Last4Years.result,0,\"current_max_date\").asString()}})]; \nresult = group q_E by 'Data_Input_In_Cloas__c_Month' full, q_G by 'Data_Input_In_Cloas__c_Month'; \nresult = foreach result generate coalesce(q_E.'Data_Input_In_Cloas__c_Month', q_G.'Data_Input_In_Cloas__c_Month') as 'Data_Input_In_Cloas__c_Month', count(q_E) as 'E', count(q_G) as 'G';\nresult = group result by 'Data_Input_In_Cloas__c_Month';\nresult = foreach result generate 'Data_Input_In_Cloas__c_Month', sum(E) as 'E', sum(G) as 'G', (sum(G)-sum(E))/sum(E) as 'Current Year vs. Last Year';\nresult = order result by ('Data_Input_In_Cloas__c_Month' asc);\nresult = limit result 2000;",
+
+                "receiveFacetSource": {
+
+                    "mode": "all",
+
+                    "steps": []
+
+                },
+
+                "selectMode": "single",
+
+                "strings": [],
+
+                "type": "saql",
+
+                "useGlobal": true,
+
+                "visualizationParameters": {
+
+                    "parameters": {
+
+                        "autoFitMode": "keepLabels",
+
+                        "showValues": true,
+
+                        "bins": {
+
+                            "breakpoints": {
+
+                                "high": 100,
+
+                                "low": 0
+
+                            },
+
+                            "bands": {
+
+                                "high": {
+
+                                    "color": "#008000",
+
+                                    "label": ""
+
+                                },
+
+                                "low": {
+
+                                    "color": "#B22222",
+
+                                    "label": ""
+
+                                },
+
+                                "medium": {
+
+                                    "color": "#ffa500",
+
+                                    "label": ""
+
+                                }
+
+                            }
+
+                        },
+
+                        "legend": {
+
+                            "descOrder": false,
+
+                            "showHeader": true,
+
+                            "show": false,
+
+                            "customSize": "auto",
+
+                            "position": "right-top",
+
+                            "inside": false
+
+                        },
+
+                        "axisMode": "multi",
+
+                        "tooltip": {
+
+                            "showBinLabel": true,
+
+                            "measures": "",
+
+                            "showNullValues": true,
+
+                            "showPercentage": true,
+
+                            "showDimensions": true,
+
+                            "showMeasures": true,
+
+                            "customizeTooltip": false,
+
+                            "dimensions": ""
+
+                        },
+
+                        "visualizationType": "vbar",
+
+                        "title": {
+
+                            "fontSize": 24,
+
+                            "subtitleFontSize": 14,
+
+                            "label": "Sales - Number of Transactions",
+
+                            "align": "center",
+
+                            "subtitleLabel": "Variance Running Total (YTD vs. Avg Same Period Last 3 Years)"
+
+                        },
+
+                        "binValues": false,
+
+                        "trellis": {
+
+                            "flipLabels": false,
+
+                            "showGridLines": true,
+
+                            "size": [
+
+                                100,
+
+                                100
+
+                            ],
+
+                            "enable": false,
+
+                            "type": "x",
+
+                            "chartsPerLine": 4
+
+                        },
+
+                        "columnMap": {
+
+                            "trellis": [],
+
+                            "dimensionAxis": [
+
+                                "Data_Input_In_Cloas__c_Month"
+
+                            ],
+
+                            "plots": [
+
+                                "Current Year vs. Last Year"
+
+                            ]
+
+                        },
+
+                        "showActionMenu": true,
+
+                        "measureAxis2": {
+
+                            "sqrtScale": false,
+
+                            "showTitle": true,
+
+                            "showAxis": true,
+
+                            "title": "",
+
+                            "customDomain": {
+
+                                "showDomain": false
+
+                            }
+
+                        },
+
+                        "measureAxis1": {
+
+                            "sqrtScale": false,
+
+                            "showTitle": false,
+
+                            "showAxis": true,
+
+                            "title": "",
+
+                            "customDomain": {
+
+                                "showDomain": false
+
+                            }
+
+                        },
+
+                        "theme": "wave",
+
+                        "dimensionAxis": {
+
+                            "showTitle": true,
+
+                            "customSize": "auto",
+
+                            "showAxis": true,
+
+                            "title": "",
+
+                            "icons": {
+
+                                "useIcons": false,
+
+                                "iconProps": {
+
+                                    "fit": "cover",
+
+                                    "column": "",
+
+                                    "type": "round"
+
+                                }
+
+                            }
+
+                        },
+
+                        "applyConditionalFormatting": true
+
+                    },
+
+                    "type": "chart"
+
+                }
+
+            },
+
+            "Number_of_Transactio_CYTDvsPYTD": {
+
+                "broadcastFacet": true,
+
+                "groups": [],
+
+                "label": "salestrending_chart_salestransactionrunningtotalvariance_CYYTD+LYYTD",
+
+                "numbers": [],
+
+                "query": "q = load \"Transactions_for_COO_report\";\nq_E = filter q by date('Data_Input_In_Cloas__c_Year', 'Data_Input_In_Cloas__c_Month', 'Data_Input_In_Cloas__c_Day') in [dateRange({{cell(PeriodsOverPeriods_Last4Years.result,0,\"prior_min_date\").asString()}}, {{cell(PeriodsOverPeriods_Last4Years.result,0,\"prior_max_date\").asString()}})]; \nq_G = filter q by date('Data_Input_In_Cloas__c_Year', 'Data_Input_In_Cloas__c_Month', 'Data_Input_In_Cloas__c_Day') in [dateRange({{cell(PeriodsOverPeriods_Last4Years.result,0,\"current_min_date\").asString()}}, {{cell(PeriodsOverPeriods_Last4Years.result,0,\"current_max_date\").asString()}})]; \nresult = group q_E by 'Data_Input_In_Cloas__c_Month' full, q_G by 'Data_Input_In_Cloas__c_Month'; \nresult = foreach result generate coalesce(q_E.'Data_Input_In_Cloas__c_Month', q_G.'Data_Input_In_Cloas__c_Month') as 'Data_Input_In_Cloas__c_Month', count(q_E) as 'E', count(q_G) as 'G';\nresult = group result by 'Data_Input_In_Cloas__c_Month';\nresult = foreach result generate 'Data_Input_In_Cloas__c_Month', first(E) as 'E', first(G) as 'G', sum(sum(G)) over ([..0] partition by all order by ('Data_Input_In_Cloas__c_Month')) as 'Current Year', sum(sum(E)) over([..0] partition by 'all' order by 'Data_Input_In_Cloas__c_Month' asc) as 'Last Year';\nresult = order result by ('Data_Input_In_Cloas__c_Month' asc);\nresult = limit result 2000;",
+
+                "receiveFacetSource": {
+
+                    "mode": "all",
+
+                    "steps": []
+
+                },
+
+                "selectMode": "single",
+
+                "strings": [],
+
+                "type": "saql",
+
+                "useGlobal": true,
+
+                "visualizationParameters": {
+
+                    "parameters": {
+
+                        "autoFitMode": "keepLabels",
+
+                        "showValues": true,
+
+                        "bins": {
+
+                            "breakpoints": {
+
+                                "high": 100,
+
+                                "low": 0
+
+                            },
+
+                            "bands": {
+
+                                "high": {
+
+                                    "color": "#008000",
+
+                                    "label": ""
+
+                                },
+
+                                "low": {
+
+                                    "color": "#B22222",
+
+                                    "label": ""
+
+                                },
+
+                                "medium": {
+
+                                    "color": "#ffa500",
+
+                                    "label": ""
+
+                                }
+
+                            }
+
+                        },
+
+                        "legend": {
+
+                            "descOrder": false,
+
+                            "showHeader": true,
+
+                            "show": false,
+
+                            "customSize": "auto",
+
+                            "position": "right-top",
+
+                            "inside": false
+
+                        },
+
+                        "axisMode": "multi",
+
+                        "tooltip": {
+
+                            "showBinLabel": true,
+
+                            "measures": "",
+
+                            "showNullValues": true,
+
+                            "showPercentage": true,
+
+                            "showDimensions": true,
+
+                            "showMeasures": true,
+
+                            "customizeTooltip": false,
+
+                            "dimensions": ""
+
+                        },
+
+                        "visualizationType": "vbar",
+
+                        "title": {
+
+                            "fontSize": 24,
+
+                            "subtitleFontSize": 14,
+
+                            "label": "Sales - Number of Transactions",
+
+                            "align": "center",
+
+                            "subtitleLabel": "Variance Running Total (YTD vs. Avg Same Period Last 3 Years)"
+
+                        },
+
+                        "binValues": false,
+
+                        "trellis": {
+
+                            "flipLabels": false,
+
+                            "showGridLines": true,
+
+                            "size": [
+
+                                100,
+
+                                100
+
+                            ],
+
+                            "enable": false,
+
+                            "type": "x",
+
+                            "chartsPerLine": 4
+
+                        },
+
+                        "columnMap": {
+
+                            "trellis": [],
+
+                            "dimensionAxis": [
+
+                                "Data_Input_In_Cloas__c_Month"
+
+                            ],
+
+                            "plots": [
+
+                                "Last Year",
+
+                                "Current Year"
+
+                            ]
+
+                        },
+
+                        "showActionMenu": true,
+
+                        "measureAxis2": {
+
+                            "sqrtScale": false,
+
+                            "showTitle": true,
+
+                            "showAxis": true,
+
+                            "title": "",
+
+                            "customDomain": {
+
+                                "showDomain": false
+
+                            }
+
+                        },
+
+                        "measureAxis1": {
+
+                            "sqrtScale": false,
+
+                            "showTitle": false,
+
+                            "showAxis": true,
+
+                            "title": "",
+
+                            "customDomain": {
+
+                                "showDomain": false
+
+                            }
+
+                        },
+
+                        "theme": "wave",
+
+                        "dimensionAxis": {
+
+                            "showTitle": true,
+
+                            "customSize": "auto",
+
+                            "showAxis": true,
+
+                            "title": "",
+
+                            "icons": {
+
+                                "useIcons": false,
+
+                                "iconProps": {
+
+                                    "fit": "cover",
+
+                                    "column": "",
+
+                                    "type": "round"
+
+                                }
+
+                            }
+
+                        },
+
+                        "applyConditionalFormatting": true
+
+                    },
+
+                    "type": "chart"
+
+                }
+
+            },
+
+            "Picklist_Channel": {
+
+                "broadcastFacet": true,
+
+                "datasets": [
+
+                    {
+
+                        "id": "0Fb1o000000SEdKCAW",
+
+                        "label": "Transactions for COO report",
+
+                        "name": "Transactions_for_COO_report",
+
+                        "url": "/services/data/v50.0/wave/datasets/0Fb1o000000SEdKCAW"
+
+                    }
+
+                ],
+
+                "isGlobal": false,
+
+                "label": "Picklist_Channel",
+
+                "query": {
+
+                    "measures": [
+
+                        [
+
+                            "count",
+
+                            "*"
+
+                        ]
+
+                    ],
+
+                    "groups": [
+
+                        "Channel__c"
+
+                    ]
+
+                },
+
+                "receiveFacetSource": {
+
+                    "mode": "all",
+
+                    "steps": []
+
+                },
+
+                "selectMode": "multi",
+
+                "type": "aggregateflex",
+
+                "useGlobal": true,
+
+                "visualizationParameters": {
+
+                    "parameters": {
+
+                        "autoFitMode": "keepLabels",
+
+                        "showValues": true,
+
+                        "bins": {
+
+                            "breakpoints": {
+
+                                "high": 100,
+
+                                "low": 0
+
+                            },
+
+                            "bands": {
+
+                                "high": {
+
+                                    "color": "#008000",
+
+                                    "label": ""
+
+                                },
+
+                                "low": {
+
+                                    "color": "#B22222",
+
+                                    "label": ""
+
+                                },
+
+                                "medium": {
+
+                                    "color": "#ffa500",
+
+                                    "label": ""
+
+                                }
+
+                            }
+
+                        },
+
+                        "legend": {
+
+                            "descOrder": false,
+
+                            "showHeader": true,
+
+                            "show": true,
+
+                            "customSize": "auto",
+
+                            "position": "right-top",
+
+                            "inside": false
+
+                        },
+
+                        "axisMode": "multi",
+
+                        "tooltip": {
+
+                            "showBinLabel": true,
+
+                            "measures": "",
+
+                            "showNullValues": true,
+
+                            "showPercentage": true,
+
+                            "showDimensions": true,
+
+                            "showMeasures": true,
+
+                            "customizeTooltip": false,
+
+                            "dimensions": ""
+
+                        },
+
+                        "visualizationType": "hbar",
+
+                        "title": {
+
+                            "fontSize": 14,
+
+                            "subtitleFontSize": 11,
+
+                            "label": "",
+
+                            "align": "center",
+
+                            "subtitleLabel": ""
+
+                        },
+
+                        "binValues": false,
+
+                        "trellis": {
+
+                            "flipLabels": false,
+
+                            "showGridLines": true,
+
+                            "size": [
+
+                                100,
+
+                                100
+
+                            ],
+
+                            "enable": false,
+
+                            "type": "x",
+
+                            "chartsPerLine": 4
+
+                        },
+
+                        "columnMap": {
+
+                            "trellis": [],
+
+                            "dimensionAxis": [
+
+                                "Channel__c"
+
+                            ],
+
+                            "plots": [
+
+                                "count"
+
+                            ]
+
+                        },
+
+                        "showActionMenu": true,
+
+                        "measureAxis2": {
+
+                            "sqrtScale": false,
+
+                            "showTitle": true,
+
+                            "showAxis": true,
+
+                            "title": "",
+
+                            "customDomain": {
+
+                                "showDomain": false
+
+                            }
+
+                        },
+
+                        "measureAxis1": {
+
+                            "sqrtScale": false,
+
+                            "showTitle": true,
+
+                            "showAxis": true,
+
+                            "title": "",
+
+                            "customDomain": {
+
+                                "showDomain": false
+
+                            }
+
+                        },
+
+                        "theme": "wave",
+
+                        "dimensionAxis": {
+
+                            "showTitle": true,
+
+                            "customSize": "auto",
+
+                            "showAxis": true,
+
+                            "title": "",
+
+                            "icons": {
+
+                                "useIcons": false,
+
+                                "iconProps": {
+
+                                    "fit": "cover",
+
+                                    "column": "",
+
+                                    "type": "round"
+
+                                }
+
+                            }
+
+                        },
+
+                        "applyConditionalFormatting": true
+
+                    },
+
+                    "type": "chart",
+
+                    "options": {}
+
+                }
+
+            }
+
+        }
