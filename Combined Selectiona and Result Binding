@@ -1,0 +1,62 @@
+//When bind queries from different datasets, for example, use the result from one query to filter another query.
+//Source query:
+
+"sumofpolicyrolesbyrole": {
+                "broadcastFacet": true,
+                "groups": [],
+                "label": "sumofpolicyrolesbyrole",
+                "numbers": [],
+                "query": "t = load \"Transactions_for_COO_report\";\nt = filter t by 'DIP_Number__c' != \"\";\nt = filter t by date('Policy_.CreatedDate_Year', 'Policy_.CreatedDate_Month', 'Policy_.CreatedDate_Day') in [dateRange([2020,8,3], [2999,12,31])];\nt = filter t by 'Transaction_Type__c' in [\"Annualità Aggiuntiva\", \"New Business\"]; t = filter t by 'Policy_.Policy_Status__c' == \"Active\"; t = filter t by 'Policy_.Channel__c' == \"Channel 1\"; p = load \"Policies_Policy_Roles_Accounts\"; p = filter p by 'Policy_Rol.CreatedById' == \"00524000001DCs6AAG\"; tp = cogroup t by ('Policy_.Name', 'Policy_.CreatedDate_Year', 'Policy_.CreatedDate_Month', 'Policy_.CreatedDate_Day','DIP_Number__c', 'Policy_.Channel__c', 'Policy_.Policy_Status__c', 'Account.Legal_Entity__c','Account_Age_c_measureToDimension_searchReplace'), p by ('Name', 'CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day','DIP_Number__c', 'Channel__c', 'Policy_Status__c', 'Account.Legal_Entity__c','Account.Age__c_to_dimension'); tp = foreach tp generate p.'CreatedDate_Year' as 'CreatedDate_Year', p.'CreatedDate_Month'as 'CreatedDate_Month', p.'CreatedDate_Day' as 'CreatedDate_Day', p.'Channel__c' as 'Channel__c', p.'Policy_Status__c' as 'Policy_Status__c', (p.'Name') as 'Name', p.'DIP_Number__c' as 'DIP_Number__c', p.'Account.Legal_Entity__c' as 'Account.Legal_Entity__c', p.'Account.Age__c_to_dimension' as 'Account.Age__c_to_dimension', count(p) as 'TransactionCount'; q = load \"Policies_Policy_Roles_Accounts\"; q = filter q by 'Policy_Rol.CreatedById' == \"00524000001DCs6AAG\"; q = filter q by 'Policy_Status__c' == \"Active\"; q = filter q by 'Channel__c' == \"Channel 1\"; q = filter q by !(date('Policy_Rol.JitterbitLastModifiedDate__c_Year', 'Policy_Rol.JitterbitLastModifiedDate__c_Month', 'Policy_Rol.JitterbitLastModifiedDate__c_Day') in [\"1000 years ago\"..\"current day\"]); q1 = filter q by date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day') in [dateRange([2020,8,3], [2999,12,31])]; result = cogroup tp by ('Name'), q1 by ('Name');\nresult = foreach result generate (q1.'Name') as 'PolicyNumber', coalesce(count(q1),0) as 'PolicyCount'; ",
+                "receiveFacetSource": {
+                    "mode": "all",
+                    "steps": []
+                },
+                "selectMode": "single",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "borderColor": "#e0e5ee",
+                        "borderWidth": 1,
+                        "cell": {
+                            "backgroundColor": "#ffffff",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "columnProperties": {},
+                        "columns": [],
+                        "customBulkActions": [],
+                        "header": {
+                            "backgroundColor": "#f4f6f9",
+                            "fontColor": "#16325c",
+                            "fontSize": 12
+                        },
+                        "innerMajorBorderColor": "#a8b7c7",
+                        "innerMinorBorderColor": "#e0e5ee",
+                        "maxColumnWidth": 300,
+                        "minColumnWidth": 40,
+                        "mode": "variable",
+                        "numberOfLines": 1,
+                        "showActionMenu": true,
+                        "totals": true,
+                        "verticalPadding": 8
+                    },
+                    "type": "table"
+                }
+            },
+
+//Filter of another query which is filtered by the selection of the source query
+"filters": [
+                        [
+                            "Name",
+                            "{{column(sumofpolicyrolesbyrole.result, [\"PolicyNumber\"]).asObject()}}",
+                            "in"
+                        ],
+                        //the above node is used to narrow the query to only those in the source query, pay attention to the "in"
+                        [
+                            "Name",
+                            "{{column(sumofpolicyrolesbyrole.selection, [\"PolicyNumber\"]).asObject()}}"
+                        ]
+                        //the above node is used for selection binding, use the selected Policy Number to filter the Policy Number in the 2nd query
+                    ]
