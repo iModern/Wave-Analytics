@@ -53,10 +53,10 @@
                             "{{column(sumofpolicyrolesbyrole.result, [\"PolicyNumber\"]).asObject()}}",
                             "in"
                         ],
-                        //the above node is used to narrow the query to only those in the source query, pay attention to the "in" and .result
+                        //the above node is used to narrow the query to only those in the source query, pay attention to the "in" and .result . This is added to table widget.
                         [
                             "Name",
                             "{{column(sumofpolicyrolesbyrole.selection, [\"PolicyNumber\"]).asObject()}}"
                         ]
-                        //the above node is used for selection binding, use the selected Policy Number to filter the Policy Number in the 2nd query, pay attention to .selection
+                        //the above node is used for selection binding, use the selected Policy Number to filter the Policy Number in the 2nd query, pay attention to .selection . This is added pie/values talbe widget.
                     ]
